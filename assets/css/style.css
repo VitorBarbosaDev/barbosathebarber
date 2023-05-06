@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Roboto Slab', serif;
-    color: #3a3a3a;
+    background-color: var(--background-color);
 }
 
 /* headings and logo */
@@ -18,9 +18,15 @@ h1, h2{
     font-family: 'EB Garamond', serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: var(--text-color);
+}
+header{
+    background-color: var(--primary-color);
 }
 
+.header__logo, nav{
+    line-height: 75px;
+}
 .header__logo{
     float: left;
     font-size: 100%;
@@ -31,7 +37,21 @@ h1, h2{
 .nav{
     float: right;
 }
+.nav__link{
+    font-size: 110%;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: var(--text-color);
+    margin-right: 30px;
+}
 
+.nav__link:hover{
+    border-bottom: 1px solid var(--text-color);
+}
+
+.active{
+    border-bottom: 1px solid var(--text-color);
+}
 
 /* Hero image and cover text */
 
@@ -45,19 +65,63 @@ h1, h2{
 #hero-image{
     height:600px;
     width: 100%;
-    background: url("../BrandingAndReviews/IMG-20230506-WA0011.jpg") no-repeat center center;
-
+    background: url("../images/BrandingAndReviews/IMG-20230506-WA0010.jpg") no-repeat center center;
+    background-size: cover;
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
+#cover-text {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: var(--cover-background);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+    
+    border: 1px solid var(--accent-color);
+}
+
+#cover-text h2,h3{
+    color: var(--primary-color);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#cover-text h2{
+    font-size: 120%;
+    border-bottom: 1px solid var(--text-color);
+}
+
+/* Creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
 /* Colors */
 :root {
     --primary-color: #eaeaea; /* Green */
     --secondary-color: #ffc107; /* Yellow */
     --accent-color: #d6a206; /* Red */
-    --background-color: #ffffff; /* Light grey */
-    --text-color: #181818; /* Dark grey */
+    --cover-background: rgba(47, 47, 47, 0.6); /* black */
+    --background-color: #1f1f1f; /* Light grey */
+    --text-color: rgb(255, 255, 255); /* Dark grey */
 }
