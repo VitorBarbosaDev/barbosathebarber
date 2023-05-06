@@ -27,3 +27,18 @@ h1, h2{
     margin-left: 30px;
 }
 
+/* navigation links */
+
+.nav{
+    float: right;
+    display: inline-flex;
+}
+
+/* Colors */
+:root {
+    --primary-color: #eaeaea; /* Green */
+    --secondary-color: #ffc107; /* Yellow */
+    --accent-color: #d6a206; /* Red */
+    --background-color: #ffffff; /* Light grey */
+    --text-color: #181818; /* Dark grey */
+}
