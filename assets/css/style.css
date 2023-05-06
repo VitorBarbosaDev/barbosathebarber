@@ -23,15 +23,34 @@ h1, h2{
 
 .header__logo{
     float: left;
-    font-size: 280%;
+    font-size: 100%;
     margin-left: 30px;
 }
 
 /* navigation links */
-
 .nav{
     float: right;
-    display: inline-flex;
+}
+
+
+/* Hero image and cover text */
+
+#hero-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image{
+    height:600px;
+    width: 100%;
+    background: url("../BrandingAndReviews/IMG-20230506-WA0011.jpg") no-repeat center center;
+
+    /* Animates zoom effect on loading the page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 /* Colors */
