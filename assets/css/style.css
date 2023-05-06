@@ -1,0 +1,22 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Roboto+Slab&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2{
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
