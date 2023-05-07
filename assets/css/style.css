@@ -118,7 +118,7 @@ header{
 /* Statement section */
 #statement{
     padding-top: 75px;
-    height: 6000px;
+    height: 600px;
 }
 #statement > h2{
     text-align: center;
@@ -138,9 +138,9 @@ header{
 }
 .statement__inner{
     float: right;
+    height: 70%;
     width: 30%;
     margin-right: 100px;
-    margin-left: 0px;
     border: 1px solid var(--accent-color)
 }
 .statement__text{
@@ -156,6 +156,26 @@ header{
     
     padding-left: 20px;
     padding-right: 10px;
+}
+#book_link{
+    Color: var(--text-color);
+    padding-top: 5%;
+    text-align: center;
+    float: right;
+    height: 70%;
+    width: 30%;
+    margin-right: 100px;
+    text-decoration: none;
+}
+#book_link p{
+    font-size: 150%;
+   border: .5px solid var(--accent-color);
+    text-align: center;
+}
+
+#book_link p:hover{
+    border: .5px solid var(--text-color);
+    background-color: var(--secondary-color);
 }
 
 /* Colors */
