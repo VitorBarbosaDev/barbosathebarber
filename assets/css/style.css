@@ -12,6 +12,11 @@ body{
     background-color: var(--background-color);
 }
 
+section{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 /* headings and logo */
 
 h1, h2{
@@ -21,7 +26,8 @@ h1, h2{
     color: var(--text-color);
 }
 header{
-    background-color: var(--primary-color);
+    padding-bottom: 5px;
+    height: 50px;
 }
 
 .header__logo, nav{
@@ -31,6 +37,9 @@ header{
     float: left;
     font-size: 100%;
     margin-left: 30px;
+}
+.header__logo a{
+    color: var(--primary-color);
 }
 
 /* navigation links */
@@ -54,6 +63,7 @@ header{
 }
 
 /* Hero image and cover text */
+
 
 #hero-outer{
     height:600px;
@@ -81,12 +91,12 @@ header{
     width: 300px;
     height: 200px;
 
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
 
     background-color: var(--cover-background);
 
-    bottom: 30px;
+    bottom: 80px;
     right: 150px;
 
     position: absolute;
@@ -256,6 +266,37 @@ footer h3{
     letter-spacing: 4px;
     margin-right: 30px;
     display: inline;
+}
+
+
+/*about page*/
+#aboutsection{
+    padding-top: 75px;
+    text-align: center;
+   
+}
+#aboutsection h2{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+.rightabout {
+    float: right;
+    width: 25%;
+}
+.leftabout {
+    float: left;
+    width: 25%;
+   
+}
+.midabout{
+    margin: 0 auto;
+    width: 50%;
+    text-align: left;
+    font-size: 150%;
+    color: var(--text-color);
 }
 
 /* Colors */
