@@ -210,6 +210,18 @@ header{
 }
 
 
+/*tiktok embed*/
+.custom-tiktok-embed {
+    background-color: #1f1f1f !important;
+    padding-top: 20px;
+    border-radius: 10px;
+    color: var(--accent-color) !important;
+}
+
+.custom-tiktok-embed section {
+    background-color: #1f1f1f !important;
+}
+
 
 /* Footer */
 footer{
