@@ -273,7 +273,7 @@ footer h3{
 #aboutsection{
     padding-top: 75px;
     text-align: center;
-   
+    margin: 0 auto;
 }
 #aboutsection h2{
     font-size: 50px;
@@ -282,21 +282,35 @@ footer h3{
     text-decoration: underline;
     text-decoration-thickness: 3px;
 }
-.rightabout {
-    float: right;
-    width: 25%;
-}
-.leftabout {
-    float: left;
-    width: 25%;
-   
-}
+
 .midabout{
-    margin: 0 auto;
     width: 50%;
     text-align: left;
     font-size: 150%;
     color: var(--text-color);
+    margin: 0 auto;
+}
+
+
+/*Services page*/
+#table-section{
+    color: var(--text-color);
+}
+
+#table-section table{
+    border-collapse: collapse;
+    width: 60%;
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#table-section caption{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
 
 /* Colors */
