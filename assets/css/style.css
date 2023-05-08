@@ -313,6 +313,23 @@ footer h3{
     text-decoration-thickness: 3px;
 }
 
+
+
+
+/*Gallery page*/
+
+#haircutphotos{
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+    
+}
+
+#haircutphotos img{
+    width: 100%;
+}
+
 /* Colors */
 :root {
     --primary-color: #262626; /* Green */
