@@ -260,6 +260,11 @@ footer{
     color: var(--accent-color);
 }
 
+#footer-section{
+    clear: both;
+    width: 100%;
+}
+
 footer h3{
     padding-top: 20px;
     font-size: 120%;
@@ -272,27 +277,54 @@ footer h3{
 
 /*about page*/
 #about-section{
-    padding-top: 75px;
     text-align: center;
-    margin: 0 auto;
+    float: right;
+    width: 50%;
+    padding-right: 150px;
 }
 #about-section h2{
     font-size: 50px;
     font-weight: 300;
-    margin-bottom: 20px;
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    padding-bottom: 20px;
+}
+
+#everything-about{
+    height: 700px;
+    text-align: center;
+    padding-top: 200px;
+    
 }
 
 .mid-about{
-    width: 50%;
+   
     text-align: left;
     font-size: 150%;
     color: var(--text-color);
     margin: 0 auto;
 }
 
+#left-about {
+    float: left;
+    padding-left: 150px;
+}
+
+#circle-container {
+    width: 450px;
+    height: 450px;
+    padding: 30px;
+    border-style: solid;
+    border-color: var(--text-color);
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url("../../assets/images/brandingandreviews/profilepic.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
 
 /*Services page*/
 #table-section{
