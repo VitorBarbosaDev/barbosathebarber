@@ -277,16 +277,18 @@ footer h3{
 
 /*about page*/
 #about-section{
+    padding-top: 0;
     text-align: center;
     float: right;
     width: 50%;
-    padding-right: 150px;
+    
 }
 #about-section h2{
     font-size: 50px;
     font-weight: 300;
     text-decoration: underline;
     text-decoration-thickness: 3px;
+    padding-right: 60px;
 }
 
 #everything-about{
@@ -297,7 +299,7 @@ footer h3{
 }
 
 .mid-about{
-   
+   width: 50%;
     text-align: left;
     font-size: 150%;
     color: var(--text-color);
@@ -306,24 +308,15 @@ footer h3{
 
 #left-about {
     float: left;
-    padding-left: 150px;
+    width: 50%;
 }
 
-#circle-container {
-    width: 450px;
-    height: 450px;
-    padding: 30px;
-    border-style: solid;
-    border-color: var(--text-color);
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url("../../assets/images/brandingandreviews/profilepic.jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
+#circle-cover-bg img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    object-fit: cover;
+    object-position: center;
 }
 
 /*Services page*/
@@ -380,6 +373,131 @@ footer h3{
 }
 
 
+/*Contact page*/
+
+.contact_Master{
+    height: 700px;
+    width: 100%;
+    padding-top: 100px;
+    color: var(--text-color);
+    
+}
+
+.contact-instagram{
+    width: 30%;
+    float: left;
+    padding-left: 60px;
+    color: var(--text-color);
+}
+
+.contact-instagram p{
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+.contact-instagram i{
+    color: var(--accent-color);
+    font-size: 120%;
+}
+
+.map-form{
+    width: 50%;
+    float: right;
+    color: var(--text-color);
+    padding-right: 30px;
+}
+
+.map-form iframe{
+    margin: 0;
+    width: 300px;
+    height: 425px;
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+    
+}
+
+.map-form table {
+    height: 400px;
+    float: right;
+    padding-right: 25%;
+}
+
+.map-form caption{
+    font-size: 150%;
+    color: var(--accent-color);
+    margin-top: 20px;
+    padding-right: 60%;
+}
+
+.map-form th{
+    font-size: 150%;
+    margin-bottom: 10px;
+    color: var(--accent-color);
+    text-align: left;
+    padding-right: 20px;
+}
+.map-form td{
+    font-size: 120%;
+    color: var(--text-color);
+    padding-right: 20px;
+}
+
+
+
+.contact-form-section{
+    margin: 0 auto  ;
+    color: var(--text-color);
+    max-width: 800px;
+    max-height: 600px;
+    padding-bottom: 30px;
+}
+
+.contact-form{
+    padding: 30px;
+}
+.text-input{
+    background: transparent;
+    color: var(--text-color);
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid var(--text-color);
+    border-radius: 2px;
+}
+.text-input:hover{
+    border-color: var(--accent-color);
+}
+
+#extraInfo{
+    width: 100%;
+    height: 100px;
+    margin: 5px 0 20px 0;
+    border: 1px solid var(--text-color);
+    border-radius: 2px;
+    background: transparent;
+    color: var(--text-color);
+}
+
+#extraInfo:hover{
+    border-color: var(--accent-color);
+}
+
+.contact-button{
+    margin-top: 20px;
+    border-radius: 2px;
+    float:right;
+    padding:15px 32px;
+    text-align: center;
+    font-size:100%;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    display: block;
+}
+
+.contact-button:hover{
+    background-color: var(--text-color);
+    color: var(--accent-color);
+}
 
 /* Colors */
 :root {
