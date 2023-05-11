@@ -500,6 +500,39 @@ footer h3{
     color: var(--accent-color);
 }
 
+/*Success*/
+
+#success-section{
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+#success-section p{
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+#success-section a{
+    Color: var(--text-color);
+    text-align: center;
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 150%;
+    border: .5px solid var(--accent-color);
+    box-shadow: 1px 1px var(--accent-color), 2px 2px var(--accent-color), 3px 3px var(--accent-color), 4px 4px var(--accent-color);
+
+}
+
+
+#success-section a:hover{
+    border: 1px solid var(--text-color);
+    background-color: var(--secondary-color);
+}
+
+
 /*Key Frames*/
 
 /* Creates the level of zoom for hero image */
