@@ -236,7 +236,6 @@ header{
 
 /* Footer */
 footer{
-    padding-top: 150px;
     height: 100px;
     width: 100%;
     color: var(--text-color);
