@@ -207,20 +207,23 @@ header{
 
 /*Reviews*/
 .reviews{
+    padding: 0 5%;
     position: relative;
     padding-top: 75px;
     height: 600px;
 }
 
 .review_image{
-    width: 20%;
+    width: 19.5%;
     height: 120%;
     float: left;
     text-align: center;
     border-radius: 10px;
     border: 1px solid var(--accent-color);
     box-sizing: border-box;
+    margin-right: .5%;
 }
+
 
 
 /*tiktok embed*/
@@ -544,3 +547,59 @@ footer h3{
         transform: scale(1.1);
     }
 }
+
+/* media queries */
+
+/* For devices smaller than 600px */
+@media only screen and (max-width: 600px) {
+
+  
+
+    h1, h2 {
+        font-size: 1.5em; 
+    }
+
+   
+}
+
+/* For devices smaller than 900px */
+@media only screen and (max-width: 900px) {
+
+  
+
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+  
+}
+
+/* For devices smaller than 1200px */
+@media only screen and (max-width: 1200px) {
+
+   
+
+    #hero-outer {
+        height: 400px;
+    }
+
+    #hero-image {
+        height: 400px;
+    }
+
+    
+}
+
+/* For devices smaller than 1500px */
+@media only screen and (max-width: 1500px) 
+{
+
+
+    .header__logo {
+        font-size: 80%; /* Adjust as needed */
+    }
+}
+
+
+
