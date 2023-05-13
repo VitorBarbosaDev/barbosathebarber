@@ -550,56 +550,573 @@ footer h3{
 
 /* media queries */
 
-/* For devices smaller than 600px */
-@media only screen and (max-width: 600px) {
-
-  
-
-    h1, h2 {
-        font-size: 1.5em; 
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px)
+{
+    
+    .header__logo{
+        width: 100%;
+        text-align: center;
+    }
+    .nav{
+        width: 100%;
+        text-align: center;
+    }
+    .nav__link{
+        float: left;
+        margin-left: 8%;
+        margin-bottom: 20px;
+        font-size: 120%;
+    }
+    #left-about{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
     }
 
-   
+    #about-section{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #about-section h2{
+        font-size: 50px;
+        font-weight: 300;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        padding-right: 60px;
+    }
+    #about-section p{
+        font-size: 100%;
+        color: var(--text-color);
+        margin: 0 auto;
+    }
+    
+    .mid-about{
+        width: 100%;
+        color: var(--text-color);
+        margin: 0 auto;
+        padding: 0 2%;
+    }
+
+    /*Services page*/
+    
+    #table-services{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 2%;
+    }
+    #table-section table{
+        width: 95%;
+        font-size: 150%;
+        text-align: left;
+    }
+
+    #table-section caption{
+        margin-bottom: 20px;
+    }
+
+
+    /*Contact page*/
+
+    .contact_Master{
+        height: 1400px;
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    .contact-instagram{
+        width: 50%;
+        float: none;
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+
+    .contact-instagram h2{
+        font-size: 150%;
+        margin-bottom: 20px;
+    }
+    .contact-instagram p{
+        font-size: 180%;
+        margin-bottom: 20px;
+    }
+
+    .contact-instagram i{
+        color: var(--accent-color);
+        font-size: 120%;
+    }
+
+    .map-form{
+        width: 50%;
+        float: none;
+        color: var(--text-color);
+        padding: 0;
+        margin: 10px auto;
+        
+    }
+
+    .map-form iframe{
+        margin: 0;
+        width: 400px;
+        height: 425px;
+        border: 1px solid var(--text-color);
+        border-radius: 10px;
+
+    }
+
+    .map-form table {
+        height: 400px;
+        float: none;
+       width: 503px;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+
+    .map-form caption{
+        font-size: 150%;
+        color: var(--accent-color);
+        margin-top: 20px;
+        padding-right: 30%;
+    }
+
+    .map-form th{
+        font-size: 150%;
+        margin-bottom: 10px;
+        color: var(--accent-color);
+        text-align: left;
+        padding-right: 20px;
+    }
+    .map-form td{
+        font-size: 120%;
+        color: var(--text-color);
+        padding-right: 20px;
+    }
+
+
+
+    .contact-form-section{
+        margin: 0 auto  ;
+        color: var(--text-color);
+        max-width: 100%;
+        max-height: 600px;
+        padding-bottom: 30px;
+    }
+    .contact-form-section h2{
+        color: var(--text-color);
+        max-width: 100%;
+        max-height: 600px;
+        padding-bottom: 30px;
+        margin: 0 auto  ;
+    }
+
+    .contact-form{
+        padding: 30px;
+    }
+    .text-input{
+        background: transparent;
+        color: var(--text-color);
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border: 1px solid var(--text-color);
+        border-radius: 2px;
+    }
+    .text-input:hover{
+        border-color: var(--accent-color);
+    }
+
+    #extraInfo{
+        width: 100%;
+        height: 100px;
+        margin: 5px 0 20px 0;
+        border: 1px solid var(--text-color);
+        border-radius: 2px;
+        background: transparent;
+        color: var(--text-color);
+    }
+
+    #extraInfo:hover{
+        border-color: var(--accent-color);
+    }
+
+    .contact-button{
+        margin-top: 20px;
+        border-radius: 2px;
+        float:right;
+        padding:15px 32px;
+        text-align: center;
+        font-size:100%;
+        background-color: var(--accent-color);
+        color: var(--text-color);
+        display: block;
+    }
 }
 
-/* For devices smaller than 900px */
-@media only screen and (max-width: 900px) {
 
-  
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
 
-    section {
-        padding-top: 50px;
-        padding-bottom: 50px;
+    .header__logo{
+        width: 100%;
+        text-align: center;
+    }
+    .nav{
+        width: 100%;
+        text-align: center;
+    }
+    .nav__link{
+        float: left;
+        margin-left: 5%;
+        margin-bottom: 20px;
+        font-size: 100%;
     }
 
-  
-}
-
-/* For devices smaller than 1200px */
-@media only screen and (max-width: 1200px) {
-
-   
-
-    #hero-outer {
-        height: 400px;
+    #hero-outer{
+        padding-top: 0px;
+        height:600px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
     }
 
-    #hero-image {
-        height: 400px;
+    /* Index Page */
+    
+    #cover-text {
+        font-size: 130%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+
+        width: 300px;
+        height: 200px;
+
+        padding-top: 30px;
+        padding-left: 10px;
+
+        background-color: var(--cover-background);
+
+        bottom: 80px;
+        right: 150px;
+
+        position: absolute;
+
+        border: 1px solid var(--accent-color);
     }
+
+    #cover-text h2,h3{
+        color: var(--text-color);
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    #cover-text h2{
+        font-size: 120%;
+        border-bottom: 1px solid var(--text-color);
+    }
+
+    #statement{
+        height: 1000px;
+        width: 100%;
+    }
+
+
+    .statement_image_figure {
+        clear: both;
+        float: left;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .statement-image-container{
+        width: 70%;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+
+    #statement-image{
+        height: 600px;
+        object-position: top right;
+    }
+
+
+    /*tiktok embed*/
+    .custom-tiktok-embed {
+        background-color: #1f1f1f !important;
+        padding-top: 20px;
+        border-radius: 10px;
+        color: var(--accent-color) !important;
+    }
+
+    .custom-tiktok-embed section {
+        background-color: #1f1f1f !important;
+    }
+
+    .statement__inner{
+        clear: both;
+        margin: 0px auto;
+        width: 650px;
+        float: none;
+    }
+    .statement__text{
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+    }
+    .statement__text h2{
+        font-size: 120%;
+        border-bottom: 1px solid var(--text-color);
+        text-align: center;
+    }
+    .statement__text ul{
+
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    #book_link{
+        Color: var(--text-color);
+        padding-top: 5%;
+        text-align: center;
+        display: block;
+        float: none;
+        height: 50%;
+        width: 30%;
+        text-decoration: none;
+        font-size: 80%;
+        margin: 0px auto;
+    }
+
+    #book_link p{
+        font-size: 150%;
+        border: .5px solid var(--accent-color);
+        text-align: center;
+        box-shadow: 1px 1px var(--accent-color), 2px 2px var(--accent-color), 3px 3px var(--accent-color), 4px 4px var(--accent-color);
+    }
+
+    #book_link p:hover{
+        border: .5px solid var(--text-color);
+        background-color: var(--secondary-color);
+    }
+
+    /*Reviews*/
+    .reviews{
+        padding: 0 0;
+        padding-top: 75px;
+        height: 600px;
+    }
+
+    .review_image{
+        width: 80%;
+        height: 100%;
+        margin: 10px 10%;
+        float: left;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid var(--accent-color);
+        box-sizing: border-box;
+        margin-right: 0;
+    }
+
+  /* Gallery Pages */
+
+    #haircut-photos{
+        clear: both;
+        line-height: 0;
+        column-count: 2;
+        column-gap: 0px;
+
+    }
+
+    #haircut-photos img{
+        width: 100%;
+    }
+
 
     
+    
+
+
 }
 
-/* For devices smaller than 1500px */
-@media only screen and (max-width: 1500px) 
-{
-
-
-    .header__logo {
-        font-size: 80%; /* Adjust as needed */
+/* For small screens sizes from 750px wide and down */
+@media screen and (max-width: 750px){
+    
+    .header__logo{
+        width: 90%;
+        text-align: center;
     }
+    .nav{
+        width: 90%;
+        text-align: center;
+    }
+    .nav__link{
+        float: left;
+        margin-left: 5%;
+        margin-bottom: 20px;
+        font-size: 80%;
+    }
+
+    #hero-outer{
+        padding-top: 0px;
+        height:600px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /* Index Page */
+
+    #cover-text {
+        font-size: 130%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+
+        width: 300px;
+        height: 200px;
+
+        padding-top: 30px;
+        padding-left: 10px;
+
+        background-color: var(--cover-background);
+
+        bottom: 80px;
+        right: 100px;
+
+        position: absolute;
+
+        border: 1px solid var(--accent-color);
+    }
+
+    #cover-text h2,h3{
+        color: var(--text-color);
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    #cover-text h2{
+        font-size: 120%;
+        border-bottom: 1px solid var(--text-color);
+    }
+
+    #statement{
+        height: 1000px;
+        width: 100%;
+    }
+
+
+    .statement_image_figure {
+        clear: both;
+        float: left;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .statement-image-container{
+        width: 70%;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+
+    #statement-image{
+        height: 600px;
+        object-position: top right;
+    }
+
+
+    /*tiktok embed*/
+    .custom-tiktok-embed {
+        background-color: #1f1f1f !important;
+        padding-top: 20px;
+        border-radius: 10px;
+        color: var(--accent-color) !important;
+    }
+
+    .custom-tiktok-embed section {
+        background-color: #1f1f1f !important;
+    }
+
+    .statement__inner{
+        clear: both;
+        margin: 0px auto;
+        width: 650px;
+        float: none;
+    }
+    .statement__text{
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+    }
+    .statement__text h2{
+        font-size: 120%;
+        border-bottom: 1px solid var(--text-color);
+        text-align: center;
+    }
+    .statement__text ul{
+
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    #book_link{
+        Color: var(--text-color);
+        padding-top: 5%;
+        text-align: center;
+        display: block;
+        float: none;
+        height: 50%;
+        width: 30%;
+        text-decoration: none;
+        font-size: 80%;
+        margin: 0px auto;
+    }
+
+    #book_link p{
+        font-size: 150%;
+        border: .5px solid var(--accent-color);
+        text-align: center;
+        box-shadow: 1px 1px var(--accent-color), 2px 2px var(--accent-color), 3px 3px var(--accent-color), 4px 4px var(--accent-color);
+    }
+
+    #book_link p:hover{
+        border: .5px solid var(--text-color);
+        background-color: var(--secondary-color);
+    }
+
+    /*Reviews*/
+    .reviews{
+        padding: 0 0;
+        padding-top: 75px;
+        height: 600px;
+    }
+
+    .review_image{
+        width: 80%;
+        height: 100%;
+        margin: 10px 10%;
+        float: left;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid var(--accent-color);
+        box-sizing: border-box;
+        margin-right: 0;
+    }
+
+    /* Gallery Pages */
+
+    #haircut-photos{
+        clear: both;
+        line-height: 0;
+        column-count: 2;
+        column-gap: 0px;
+
+    }
+
+    #haircut-photos img{
+        width: 100%;
+    }
+
+
+
 }
-
-
 
