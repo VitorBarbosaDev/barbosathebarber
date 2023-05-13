@@ -410,6 +410,9 @@ footer h3{
     color: var(--text-color);
     padding-right: 30px;
 }
+.map-form h2{
+    width: 30%;
+}
 
 .map-form iframe{
     margin: 0;
@@ -655,6 +658,9 @@ footer h3{
         
     }
 
+    .map-form h2{
+        width: 75%;
+    }
     .map-form iframe{
         margin: 0;
         width: 400px;
@@ -930,8 +936,11 @@ footer h3{
     #haircut-photos img{
         width: 100%;
     }
-
-
+   /* contact page */
+ 
+    .map-form h2{
+        width: 100%;
+    }
     
     
 
@@ -946,14 +955,21 @@ footer h3{
         text-align: center;
     }
     .nav{
-        width: 90%;
+        width: 100%;
         text-align: center;
+        padding-bottom: 60px;
     }
     .nav__link{
-        float: left;
-        margin-left: 5%;
-        margin-bottom: 20px;
-        font-size: 80%;
+        float: none;
+        margin-left: 2%;
+        margin-bottom: 10px;
+        line-height: 30px;
+        font-size: 120%;
+    }
+
+    .active{
+        border-bottom: .1px solid var(--text-color);
+        padding-bottom: -10px;
     }
 
     #hero-outer{
@@ -979,8 +995,8 @@ footer h3{
 
         background-color: var(--cover-background);
 
-        bottom: 80px;
-        right: 100px;
+        bottom: 100px;
+        right: 60px;
 
         position: absolute;
 
@@ -1014,7 +1030,7 @@ footer h3{
 
 
     .statement-image-container{
-        width: 70%;
+        width: 95%;
         overflow: hidden;
         margin: 0px auto;
     }
@@ -1041,13 +1057,10 @@ footer h3{
     .statement__inner{
         clear: both;
         margin: 0px auto;
-        width: 650px;
+        width: 90%;
         float: none;
     }
-    .statement__text{
-        background-color: var(--secondary-color);
-        color: var(--text-color);
-    }
+   
     .statement__text h2{
         font-size: 120%;
         border-bottom: 1px solid var(--text-color);
@@ -1115,8 +1128,127 @@ footer h3{
     #haircut-photos img{
         width: 100%;
     }
+    
+    /* about page */
+    #left-about{
+        padding-top: 50px;
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+    }
 
+    #circle-cover-bg img {
+        width: 90%;
+        height: 90%;
+        border-radius: 10%;
+        object-fit: cover;
+        object-position: center;
+    }
 
+    .mid-about{
+        width: 90%;
+        color: var(--text-color);
+        margin: 0 auto;
+        padding: 0 2%;
+    }
 
+    #about-section h2 {
+        font-size: 50px;
+        font-weight: 300;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        padding-right: 0px;
+        margin: 0 auto
+    }
+
+    
+    /*Contact page*/
+
+    .contact_Master{
+        height: 1400px;
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    .contact-instagram{
+        width: 80%;
+        float: none;
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+
+    .contact-instagram h2{
+        font-size: 150%;
+        margin-bottom: 20px;
+    }
+    .contact-instagram p{
+        font-size: 170%;
+        margin-bottom: 20px;
+    }
+
+    .contact-instagram i{
+        color: var(--accent-color);
+        font-size: 120%;
+    }
+
+    .map-form{
+        width: 80%;
+        float: none;
+        color: var(--text-color);
+        padding: 0;
+        margin: 10px auto;
+
+    }
+
+    .map-form iframe{
+        margin: 0;
+        width: 100%;
+        height: 425px;
+        border: 1px solid var(--text-color);
+        border-radius: 10px;
+
+    }
+
+    .map-form table {
+        height: 400px;
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+    .contact-form{
+        padding-top: 50px;
+    }
+}
+
+/* For small screens sizes from 320px wide and down */
+@media screen and (max-width: 320px) 
+{
+    #cover-text {
+        font-size: 130%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+
+        width: 250px;
+        height: 250px;
+
+        padding-top: 30px;
+        padding-left: 10px;
+
+        background-color: var(--cover-background);
+
+        bottom: 100px;
+        right: 30px;
+
+        position: absolute;
+
+        border: 1px solid var(--accent-color);
+    }
+    
+    .contact_Master{
+        height: 1500px;
+        width: 100%;
+        padding-top: 100px;
+    }
 }
 
