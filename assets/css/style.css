@@ -969,7 +969,6 @@ footer h3{
 
     .active{
         border-bottom: .1px solid var(--text-color);
-        padding-bottom: -10px;
     }
 
     #hero-outer{
