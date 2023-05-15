@@ -76,7 +76,7 @@ header{
 
 
 #hero-outer{
-    padding-top: 0px;
+    padding-top: 0;
     height:600px;
     width: 100%;
     overflow: hidden;
@@ -358,7 +358,7 @@ footer h3{
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 0px;
+    column-gap: 0;
     
 }
 
@@ -631,7 +631,7 @@ footer h3{
     .contact-instagram{
         width: 50%;
         float: none;
-        padding-left: 0px;
+        padding-left: 0;
         margin: 0 auto;
     }
 
@@ -778,7 +778,7 @@ footer h3{
     }
 
     #hero-outer{
-        padding-top: 0px;
+        padding-top: 0;
         height:600px;
         width: 100%;
         overflow: hidden;
@@ -829,15 +829,15 @@ footer h3{
         clear: both;
         float: left;
         width: 100%;
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
     }
 
 
     .statement-image-container{
         width: 70%;
         overflow: hidden;
-        margin: 0px auto;
+        margin: 0 auto;
     }
 
 
@@ -861,7 +861,7 @@ footer h3{
 
     .statement__inner{
         clear: both;
-        margin: 0px auto;
+        margin: 0 auto;
         width: 650px;
         float: none;
     }
@@ -889,7 +889,7 @@ footer h3{
         width: 30%;
         text-decoration: none;
         font-size: 80%;
-        margin: 0px auto;
+        margin: 0 auto;
     }
 
     #book_link p{
@@ -929,7 +929,7 @@ footer h3{
         clear: both;
         line-height: 0;
         column-count: 2;
-        column-gap: 0px;
+        column-gap: 0;
 
     }
 
@@ -973,7 +973,7 @@ footer h3{
     }
 
     #hero-outer{
-        padding-top: 0px;
+        padding-top: 0;
         height:600px;
         width: 100%;
         overflow: hidden;
@@ -1024,15 +1024,15 @@ footer h3{
         clear: both;
         float: left;
         width: 100%;
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
     }
 
 
     .statement-image-container{
         width: 95%;
         overflow: hidden;
-        margin: 0px auto;
+        margin: 0 auto;
     }
 
 
@@ -1056,7 +1056,7 @@ footer h3{
 
     .statement__inner{
         clear: both;
-        margin: 0px auto;
+        margin: 0 auto;
         width: 90%;
         float: none;
     }
@@ -1081,7 +1081,7 @@ footer h3{
         width: 30%;
         text-decoration: none;
         font-size: 80%;
-        margin: 0px auto;
+        margin: 0 auto;
     }
 
     #book_link p{
@@ -1121,7 +1121,7 @@ footer h3{
         clear: both;
         line-height: 0;
         column-count: 2;
-        column-gap: 0px;
+        column-gap: 0;
 
     }
 
@@ -1157,7 +1157,7 @@ footer h3{
         font-weight: 300;
         text-decoration: underline;
         text-decoration-thickness: 3px;
-        padding-right: 0px;
+        padding-right: 0;
         margin: 0 auto
     }
 
@@ -1173,7 +1173,7 @@ footer h3{
     .contact-instagram{
         width: 80%;
         float: none;
-        padding-left: 0px;
+        padding-left: 0;
         margin: 0 auto;
     }
 
