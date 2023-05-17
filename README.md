@@ -2,8 +2,6 @@
 
 ![Multi_Display_Example](assets/images/readmeimages/readme_mutipledisplaysphoto.png)
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
-
 The site was build to be used a singular place where my brother guilherme who is a barber could promote his business and have all the information in one place in order to hopefully be able to aquire new customers 
 
 
