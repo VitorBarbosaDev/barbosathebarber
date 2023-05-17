@@ -63,10 +63,6 @@ The Automated Testing includes all the testing that is carried out by a program,
 
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/3236ce22-14dc-4d12-9b20-81f637b0e295)
 
-![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/29c4ab16-3243-4f92-ab9c-b7d04e007abc)
-
-![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/2227744f-69e0-471d-a813-ed9b47dae9ac)
-
 From my understanding the reason why this page is slow is because of the maps and time it takes to load.
 
 #### Mobile Testing
