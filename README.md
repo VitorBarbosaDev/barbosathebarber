@@ -141,34 +141,43 @@ Have a responsive nav bar at the top of the page with the Barbosa The Barber log
 There is also a footer on each page that features two centered social media links one for tiktok and one for instagram.And below that is COPYRIGHT © VITOR BARBOSA
 
 
-Home Page.
+### Home Page.
 
-Carousel Section. The carousel shows photographs of the members of Bully Book Club.
-About Us Section. This section is broken down into four subsections and gives users some information on the book club. On large screens the subsections are laid out in a row, however on mobile devices the subsections are stacked vertically.
-Join Us Section. This section gives the user more information on how they can join in with the book club.
-Books Page. The navigation link for books is a drop down menu with the following sections:
+* Hero Image Section. This section includes a hero image that covers the page and it also has a box in the right corner that has a phrase on it 
+* Why cut with me Section. This section has a h2 that is centered it is then split in two one side has an image of Guilherme standing and the right side has statement and a button to book underneath.
+* Review Section. This section includes a mutiple images each of them is a different review.
+* Tiktok section. This section shows Guilhermes Tiktok feed.
 
-Currently Reading. This takes the user to the card of the book the book club is currently reading.
-Reading Next. This takes the user to the card of the book the book club will be reading next.
-Yearly Sections. This takes the user to the section of the year they have chosen. There are currently 3 years to select from. The books page implements a return to top icon which allows users to return to the navigation menu easily from any point as they scroll down the page.
-Contact Us Page.
+#### About Page. 
+* About me section. This section is split into two one left side has an image of Guilherme and then right side has a statement and title.
 
-A List of reasons users may want to contact the book club.
-Form The form contains fields for the users name, email address, instagram handle, checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
-Thank You Page.
+#### Services Page. 
+* Services We Offer section. This section is a table that shows all the updated prices for each service that Rio provide.
 
-A message thanks the user for submitting the form and lets them know someone will be in touch soon.
-Image and message from Harrison Ford, Dictator of the Bully Bookclub.
+#### Gallery Page.
+* Pictures Section. This section is a collection of images which showcase different cuts.
+
+#### Contact Page.
+* Contact On Insta Section. This section contains a title and paragrah and it is location on the left side of the page it is paragraph that at the end of it has a instagram button that will bring the user to Guilhermes Instagram page
+* Barber Info Section. Next we have the location and time for the barber shown these two features share a section the location is shown using google maps and the times is in a table.
+* Book Your Cut Section. Underneath everthing there is a form that allows the user to input their name and the type of hair cut they want and also the day they want to cut and once they submit they are redirected to the success page
+
+#### Success Page.
+* This page is simiply a thank you message and then a button to go home 
+
 Future Implementations.
 
-Use javascript to perform return to top function on books page.
-Use javascript and listeners to require at least one checkbox to be checked before submitting the form on contact us page.
-A meet the members page - This would have a photo of the member together with a small bio. A link to their instagram and/or goodreads page.
-Competitions/giveaways page - This page would give further information/rules on the competitions and giveaways the book club hosts.
+Use javascript to fetch the feed but written in my code so I have a bit more control over the styles and also what it is doing.
+Use javascript to hook up the form to some sort of service that will automacticly send an email to Guilherme telling him someone wants to book him.
 
 ### General features on each page
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/7d9981fd-c173-4ef6-a635-d2d0a6c99930)
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/abbe53a5-909c-46cd-977e-dbd4d9f5e1c6)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/3909de93-7ccc-4c15-a54d-89e1ad51a794)
+
+
 
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
