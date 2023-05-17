@@ -165,10 +165,10 @@ There is also a footer on each page that features two centered social media link
 #### Success Page.
 * This page is simiply a thank you message and then a button to go home 
 
-Future Implementations.
+#### Future Implementations.
 
-Use javascript to fetch the feed but written in my code so I have a bit more control over the styles and also what it is doing.
-Use javascript to hook up the form to some sort of service that will automacticly send an email to Guilherme telling him someone wants to book him.
+* Use javascript to fetch the feed but written in my code so I have a bit more control over the styles and also what it is doing.
+* Use javascript to hook up the form to some sort of service that will automacticly send an email to Guilherme telling him someone wants to book him.
 
 ### General features on each page
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/7d9981fd-c173-4ef6-a635-d2d0a6c99930)
