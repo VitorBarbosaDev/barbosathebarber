@@ -132,9 +132,39 @@ All images were provided by Guilherme they were mostly just haircut images and a
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+The website is comprised of Six pages, Five of which are accessible from the navigation menu (home page, About page,Services Page,Gallery Page,Contact Page ). The Sixth page is a success page that is shown one the user sumbits the form from the contact page.
 
-This section can be used to explain what pages your site is made up of.
+All Pages on the website have:
+
+Have a responsive nav bar at the top of the page with the Barbosa The Barber logo to the left and and the links to the different pages floated to the right. The page that is selected the link is gold and under lined to tell the user which page they are on.
+
+There is also a footer on each page that features two centered social media links one for tiktok and one for instagram.And below that is COPYRIGHT © VITOR BARBOSA
+
+
+Home Page.
+
+Carousel Section. The carousel shows photographs of the members of Bully Book Club.
+About Us Section. This section is broken down into four subsections and gives users some information on the book club. On large screens the subsections are laid out in a row, however on mobile devices the subsections are stacked vertically.
+Join Us Section. This section gives the user more information on how they can join in with the book club.
+Books Page. The navigation link for books is a drop down menu with the following sections:
+
+Currently Reading. This takes the user to the card of the book the book club is currently reading.
+Reading Next. This takes the user to the card of the book the book club will be reading next.
+Yearly Sections. This takes the user to the section of the year they have chosen. There are currently 3 years to select from. The books page implements a return to top icon which allows users to return to the navigation menu easily from any point as they scroll down the page.
+Contact Us Page.
+
+A List of reasons users may want to contact the book club.
+Form The form contains fields for the users name, email address, instagram handle, checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
+Thank You Page.
+
+A message thanks the user for submitting the form and lets them know someone will be in touch soon.
+Image and message from Harrison Ford, Dictator of the Bully Bookclub.
+Future Implementations.
+
+Use javascript to perform return to top function on books page.
+Use javascript and listeners to require at least one checkbox to be checked before submitting the form on contact us page.
+A meet the members page - This would have a photo of the member together with a small bio. A link to their instagram and/or goodreads page.
+Competitions/giveaways page - This page would give further information/rules on the competitions and giveaways the book club hosts.
 
 ### General features on each page
 
