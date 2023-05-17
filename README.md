@@ -65,6 +65,7 @@ Add your user stories here. You want to include first time visitors and returnin
 👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
 
 ### Colour Scheme
+![color pallet](assets\images\readmeimages\websitecolorpallet.png)
 
 Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
 
