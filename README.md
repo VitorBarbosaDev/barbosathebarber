@@ -52,7 +52,17 @@ Live Site : https://vitorbarbosadev.github.io/barbosathebarber/
 
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/e19c390f-29f0-405d-85c1-f21e710526ca)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
+Barbosa the Barber has steady been growing on all his social media platforms and with a growing cliental comes less time to answer questions.
+
+Hence why this site exists in order to help aid and reduce the amount of questions he gets asked on a daily basis.
+
+Key information for the site
+*What are the prices.
+*Pictures of haircuts.
+*How to book.
+*Where is the shop.
+*Open Hours.
+
 
 ### User Stories
 
@@ -60,14 +70,13 @@ Add your user stories here. You want to include first time visitors and returnin
 
 ## Design
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
 
 ### Colour Scheme
 ![color pallet](assets/images/readmeimages/websitecolorpallet.png)
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+I wanted a cool and easy to read color scheme so I decided to go with a black background ,white text and gold accents for the colors as these colors contrast well together.
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+I created the pallet above to represent the colors used on the website [coolors](https://coolors.co/)
 
 ### Typography
 
