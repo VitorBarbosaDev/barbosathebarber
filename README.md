@@ -177,7 +177,7 @@ There is also a footer on each page that features two centered social media link
 
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/3909de93-7ccc-4c15-a54d-89e1ad51a794)
 
-
+#### Images of each page to show responsiveness
 
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/bf9285bc-a402-4891-83e9-c6505b252276)
 
@@ -190,57 +190,74 @@ There is also a footer on each page that features two centered social media link
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/983db71c-7fa1-4d3a-8a94-52eaca56a9dc)
 
 
-### Future Implementations
-
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+I made sure to follow all the best practices when it came to accessibility here is what i did
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Providing information for screen readers where there are images used and no text - for example the review I typed the words in the image.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* Every link on the site has aria labels to ensure screen readers know exactly what they do.
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+Balsamiq - Used to create wireframes.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Git - For version control.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+[Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
+
+Photopea - To create icon
 
 ## Deployment & Local Development
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, Barbosathebarber.
+3. Click on the Settings.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
 
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork the Barbosathebarber repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, VitorBarbosaDev/Barbosathebarber.
+3. Click the Fork button in the top right corner.
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone the Bully-Book-Club repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, VitorBarbosaDev/Barbosathebarber.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
 
@@ -250,24 +267,25 @@ Testing requirements aren't massive for your first project, however if you start
   
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
 
+
 ## Credits
-
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
 
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+The only code that I used that was directly copied and pasted with a few modifications was the hero image code from the loveRunning project and also the gallery page code from that same project.
+Everything else was trail and error until it worked.
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Content was Written by Vitor Barbosa 
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+All media used was provided by Guilherme Barbosa
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+I would like to thank
+
+* Guilherme Barbosa for allowing me to do this project on his business 
+* Alex my code institude mentor for checking over everything and making sure everything was ready to submit and answering my questions.
