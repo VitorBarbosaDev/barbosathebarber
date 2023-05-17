@@ -9,12 +9,12 @@
 
 /* Colors */
 :root {
-    --primary-color: #262626; /* Green */
-    --secondary-color: #2a2a2a; /* Yellow */
-    --accent-color: #d6a206; /* Red */
-    --cover-background: rgba(47, 47, 47, 0.6); /* black */
-    --background-color: #1f1f1f; /* Light grey */
-    --text-color: rgb(255, 255, 255); /* Dark grey */
+    --primary-color: #262626; /* Dark Grey */
+    --secondary-color: #2a2a2a; /* Lighter Dark Grey */
+    --accent-color: #d6a206; /* Gold */
+    --cover-background: rgba(47, 47, 47, 0.6); /* Grey */
+    --background-color: #1f1f1f; /* Darker grey */
+    --text-color: rgb(255, 255, 255); /* White */
 }
 
 body{
