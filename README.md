@@ -88,6 +88,11 @@ Use this section to explain what sort of imagery you plan to use through your si
 
 ### Wireframes
 
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/cb9a1f1a-3e6a-4faa-aa62-e82fa245f2f2)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/12eb6e01-625c-4091-9dfc-29e7dc540251)
+
+
 Add the images or links for your wireframes here.
 
 There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
