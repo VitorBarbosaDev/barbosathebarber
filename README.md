@@ -191,13 +191,13 @@ There is also a footer on each page that features two centered social media link
 
 ### Accessibility
 
-I made sure to follow all the best practices when it came to accessibility here is what i did
+I adhered to all the recommended guidelines for accessibility. Here's what I implemented:
 
-* Using semantic HTML.
-* Using descriptive alt attributes on images on the site.
-* Providing information for screen readers where there are images used and no text - for example the review I typed the words in the image.
-* Ensuring that there is a sufficient colour contrast throughout the site.
-* Every link on the site has aria labels to ensure screen readers know exactly what they do.
+* Utilized semantic HTML for better structure and understanding.
+* Included detailed alt attributes for images on the site.
+* Added information for screen readers where images were used without accompanying text - for instance, I typed out the words in the image for the review.
+* Ensured a sufficient color contrast across the site for better visibility.
+* All links on the site are equipped with aria labels to provide clear instructions to screen readers.
 
 ## Technologies Used
 
@@ -208,32 +208,32 @@ HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-Balsamiq - Used to create wireframes.
+Balsamiq - Employed for wireframe development.
 
-Git - For version control.
+Git - Utilized for managing different versions of the project.
 
-Github - To save and store the files for the website.
+Github - Used as a repository to save and store the website's files.
 
-Google Fonts - To import the fonts used on the website.
+Google Fonts - Imported to use specific fonts on the website.
 
-Font Awesome - For the iconography on the website.
+Font Awesome - Incorporated for the website's icons.
 
-[Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
+[Am I Responsive?](https://ui.dev/amiresponsive) - Used to display the website's image across various devices.
 
-Photopea - To create icon
+Photopea - Utilized for icon creation.
 
 ## Deployment & Local Development
 
 ### Deployment
 
-Github Pages was used to deploy the live website. The instructions to achieve this are below:
+The live website was launched using Github Pages. Follow these steps to do the same:
 
-1. Log in (or sign up) to Github.
-2. Find the repository for this project, Barbosathebarber.
-3. Click on the Settings.
-4. Click on the Pages link in the left hand side navigation bar.
-5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
-6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+1. Sign in or create a new account on Github.
+2. Locate the project repository named Barbosathebarber.
+3. Navigate to Settings.
+4. On the left navigation bar, select the Pages option.
+5. In the Source section, select 'main' from the branch dropdown menu and 'Root' from the folder dropdown menu.
+6. Click on Save. Your live Github Pages site is now active and can be accessed via the provided URL.
 
 
 ### Local Development
@@ -241,7 +241,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 #### How to Fork
 
-To fork the Barbosathebarber repository:
+To create a fork of the Barbosathebarber repository, follow these steps:
 
 1. Log in (or sign up) to Github.
 2. Go to the repository for this project, VitorBarbosaDev/Barbosathebarber.
@@ -249,13 +249,13 @@ To fork the Barbosathebarber repository:
 
 #### How to Clone
 
-To clone the Bully-Book-Club repository:
+To clone the Barbosathebarber repository, follow these steps:
 
-1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, VitorBarbosaDev/Barbosathebarber.
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+1. Sign in or create a new account on Github.
+2. Navigate to the project repository, VitorBarbosaDev/Barbosathebarber.
+3. Click on the code button, choose your preferred cloning method (HTTPS, SSH or GitHub CLI) and copy the provided link.
+4. Open your code editor's terminal and navigate to the desired location for the cloned directory.
+5. Type 'git clone' into the terminal, paste the link you copied in the previous step, and press enter.
 
 ## Testing
 
@@ -270,8 +270,7 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 
 ### Code Used
 
-The only code that I used that was directly copied and pasted with a few modifications was the hero image code from the loveRunning project and also the gallery page code from that same project.
-Everything else was trail and error until it worked.
+The only portions of code that I directly replicated with minor alterations were the hero image code and the gallery page code, both from the LoveRunning project. All other code was developed through a process of trial and error until successful.
 
 ### Content
 
