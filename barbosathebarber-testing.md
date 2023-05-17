@@ -44,8 +44,6 @@ The Automated Testing includes all the testing that is carried out by a program,
 
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/f392ecbc-f530-477b-8e8f-8421fdc729b2)
 
-![W3C URI Validator](documentation/milestone1-testing/w3c-uri-validatation.png)
-
 
 #### **CSS Validation**
 
@@ -53,14 +51,32 @@ The Automated Testing includes all the testing that is carried out by a program,
 
 
 ### Lighthouse
+#### Desktop Testing
 
-👩🏻‍💻 View an example of a completed lighthouse testing section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022/blob/main/TESTING.md#Lighthouse)
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/409eb545-28ac-4801-939f-0340e321b7f6)
 
-Lighthouse Testing is part of the Chrome Developer Tools. For more information on how to use this tool, please visit [chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en#:~:text=Lighthouse%20is%20an%20open%2Dsource,how%20well%20the%20page%20did.).
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/e4279f4a-a93c-4008-af7e-81801ee4ccfb)
 
-You will need to run the Lighthouse testing on each individual page of your site, for desktop as a minimum. If you have time it would be great to also add in the mobile testing.
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/f6152ac7-f451-4678-b788-3666d64f5438)
 
-![Lighthouse Testing](documentation/milestone1-testing/lighthouse.png)
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/d7470fbc-74c8-4131-9388-86b80ec1b660)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/3236ce22-14dc-4d12-9b20-81f637b0e295)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/29c4ab16-3243-4f92-ab9c-b7d04e007abc)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/2227744f-69e0-471d-a813-ed9b47dae9ac)
+
+From my understanding the reason why this page is slow is because of the maps and time it takes to load.
+
+#### Mobile Testing
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/fb50fd04-abbf-4b1a-8029-40ad57d0f6a9)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/3e16af80-abe8-449e-9997-95cabe18e3d9)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/92744831-8d23-4948-af1c-2cb72e840717)
+
 
 ### WAVE
 
