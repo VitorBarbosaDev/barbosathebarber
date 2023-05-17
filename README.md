@@ -1,5 +1,7 @@
 # Barbosa The Barber
 
+![Multi_Display_Example](assets/images/readmeimages/readme_mutipledisplaysphoto.png)
+
 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
 
 Add a Blurb about the site here, what does it do, why did you build it?
@@ -49,6 +51,8 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 ---
 
 ## User Experience (UX)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/e19c390f-29f0-405d-85c1-f21e710526ca)
 
 👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
 
