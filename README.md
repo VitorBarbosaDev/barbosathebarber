@@ -179,7 +179,16 @@ There is also a footer on each page that features two centered social media link
 
 
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/bf9285bc-a402-4891-83e9-c6505b252276)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/2faf25a1-9b13-4823-94f5-72493cdca8e7)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/a3b8ed59-5623-4c0a-964a-11ab7fefe3cc)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/3239c6df-a8db-4f12-a1e0-4143edd79231)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/983db71c-7fa1-4d3a-8a94-52eaca56a9dc)
+
 
 ### Future Implementations
 
