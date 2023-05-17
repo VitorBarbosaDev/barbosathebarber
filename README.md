@@ -57,11 +57,11 @@ Barbosa the Barber has steady been growing on all his social media platforms and
 Hence why this site exists in order to help aid and reduce the amount of questions he gets asked on a daily basis.
 
 Key information for the site
-*What are the prices.
-*Pictures of haircuts.
-*How to book.
-*Where is the shop.
-*Open Hours.
+* What are the prices.
+* Pictures of haircuts.
+* How to book.
+* Where is the shop.
+* Open Hours.
 
 
 ### User Stories
