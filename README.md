@@ -130,13 +130,13 @@ All images were provided by Guilherme they were mostly just haircut images and a
 
 ## Features
 
-The website is comprised of Six pages, Five of which are accessible from the navigation menu (home page, About page,Services Page,Gallery Page,Contact Page ). The Sixth page is a success page that is shown one the user sumbits the form from the contact page.
+The website consists of six pages, five of which can be accessed through the navigation menu. These include the Home, About, Services, Gallery, and Contact pages. The sixth page, a success page, is displayed once a user submits the form on the Contact page.
 
-All Pages on the website have:
+### All Pages on the website have:
 
-Have a responsive nav bar at the top of the page with the Barbosa The Barber logo to the left and and the links to the different pages floated to the right. The page that is selected the link is gold and under lined to tell the user which page they are on.
+A responsive navigation bar at the top, with the Barbosa The Barber logo positioned on the left and links to the different pages floated to the right. The currently selected page is highlighted with a gold underline to indicate the user's location on the site.
 
-There is also a footer on each page that features two centered social media links one for tiktok and one for instagram.And below that is COPYRIGHT © VITOR BARBOSA
+Additionally, every page includes a footer with two centrally placed social media links for TikTok and Instagram. The footer also carries the text "COPYRIGHT © VITOR BARBOSA" to denote the ownership of the website.
 
 
 ### Home Page.
