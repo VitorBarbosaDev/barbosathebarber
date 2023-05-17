@@ -70,7 +70,7 @@ Hence why this site exists in order to help aid and reduce the amount of questio
 * To ensure the customer can find the information quickly.
 * To allow potiental customers to have a hub where they can arrange their next haircut.
 #### First Time Visitor Goals
-* I want to find out who Barbos the Barber is.
+* I want to find out who Barbosa the Barber is.
 * I want to be able to navigate the site easily to find information.
 * I want to be able to find their social media profiles so I can see what their must recent cuts look like.
 #### Returning Visitor Goals
