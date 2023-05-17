@@ -56,7 +56,7 @@ Barbosa the Barber has steady been growing on all his social media platforms and
 
 Hence why this site exists in order to help aid and reduce the amount of questions he gets asked on a daily basis.
 
-Key information for the site
+#### Key information for the site
 * What are the prices.
 * Pictures of haircuts.
 * How to book.
@@ -66,7 +66,21 @@ Key information for the site
 
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+#### Client Goals
+* To be able to view the site on a range of device sizes.
+* To make it easy for potential customers to find out the information they are seeking.
+* To ensure the customer can find the information quickly.
+* To allow potiental customers to have a hub where they can arrange their next haircut.
+#### First Time Visitor Goals
+* I want to find out who Barbos the Barber is.
+* I want to be able to navigate the site easily to find information.
+* I want to be able to find their social media profiles so I can see what their must recent cuts look like.
+#### Returning Visitor Goals
+* I want to see if any new photos have been added to the gallery.
+* I want to book another haircut.
+* I want to find social media links.
+#### Frequent Visitor Goals
+* I want to see what time the barber opens and the location.
 
 ## Design
 
@@ -80,19 +94,28 @@ I created the pallet above to represent the colors used on the website [coolors]
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+[Google Fonts](https://fonts.google.com/) was used for the following fonts:
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+* EB Garamond is used for headings on the site. 
 
-I also like to include an image of the fonts chosen as a reference.
+* Roboto Slab is used for the body text on the site.
 
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+* serif was used as a backup incase the other two failed to load.
+
+The reason I choose to use these fonts was because of the fact that they are easy to read and match other very well I also thought that they had a perfessonal vibe to that that suited Guilhermes young but business man personality.
+
+
+EB Garamond (weight 500)
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/7b99f04a-9769-4b41-8999-bdd7fd46afc1)
+
+
+Roboto Slab (weight 400)
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/2e90f509-aeeb-4a6e-9544-8742261518f7)
+
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+All images were provided by Guilherme they were mostly just haircut images and also some images from the store 
 
 ### Wireframes
 
@@ -106,13 +129,6 @@ Use this section to explain what sort of imagery you plan to use through your si
 
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/1d0ddc16-05ab-4361-852e-13adb69d85e0)
 
-
-
-Add the images or links for your wireframes here.
-
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
-
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
 
 ## Features
 
