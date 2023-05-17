@@ -77,6 +77,10 @@ From my understanding the reason why this page is slow is because of the maps an
 
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/92744831-8d23-4948-af1c-2cb72e840717)
 
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/78362ffc-7271-445d-b4bc-856d6238ad77)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/c12aa3d5-fcb0-441e-a3d8-475bd48598b5)
+
 
 ### WAVE
 
