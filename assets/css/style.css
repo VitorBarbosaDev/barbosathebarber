@@ -524,7 +524,7 @@ footer h3{
 /*Success*/
 
 #success-section{
-    height: 500px;
+    height: 600px;
     width: 100%;
     padding-top: 100px;
     color: var(--text-color);
@@ -532,6 +532,7 @@ footer h3{
 }
 
 #success-section p{
+    padding: 0 5%;
     font-size: 150%;
     margin-bottom: 20px;
 }
@@ -539,7 +540,6 @@ footer h3{
 #success-section a{
     Color: var(--text-color);
     text-align: center;
-    margin-right: 100px;
     text-decoration: none;
     font-size: 150%;
     border: .5px solid var(--accent-color);
