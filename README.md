@@ -92,6 +92,10 @@ Use this section to explain what sort of imagery you plan to use through your si
 
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/12eb6e01-625c-4091-9dfc-29e7dc540251)
 
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/ff22727b-faee-4754-bad0-4f0803255e85)
+
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/fdf24bc7-9b1b-4305-8bdc-b38f213c62ed)
+
 
 Add the images or links for your wireframes here.
 
