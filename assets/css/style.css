@@ -1,10 +1,10 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Roboto+Slab&display=swap');
 
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /* Colors */
@@ -17,46 +17,50 @@
     --text-color: rgb(255, 255, 255); /* White */
 }
 
-body{
+body {
     font-family: 'Roboto Slab', serif;
     background-color: var(--background-color);
 }
 
-section{
+section {
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
 /* headings and logo */
 
-h1, h2{
+h1, h2 {
     font-family: 'EB Garamond', serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: var(--text-color);
 }
-header{
+
+header {
     padding-bottom: 5px;
     height: 50px;
 }
 
-.header__logo, nav{
+.header__logo, nav {
     line-height: 75px;
 }
-.header__logo{
+
+.header__logo {
     float: left;
     font-size: 100%;
     margin-left: 30px;
 }
-.header__logo a{
+
+.header__logo a {
     color: var(--primary-color);
 }
 
 /* navigation links */
-.nav{
+.nav {
     float: right;
 }
-.nav__link{
+
+.nav__link {
     font-size: 110%;
     letter-spacing: 4px;
     text-decoration: none;
@@ -64,11 +68,11 @@ header{
     margin-right: 30px;
 }
 
-.nav__link:hover{
+.nav__link:hover {
     border-bottom: 1px solid var(--text-color);
 }
 
-.active{
+.active {
     border-bottom: 1px solid var(--text-color);
     color: var(--accent-color);
 }
@@ -76,16 +80,16 @@ header{
 /* Hero image and cover text */
 
 
-#hero-outer{
+#hero-outer {
     padding-top: 0;
-    height:600px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#hero-image{
-    height:600px;
+#hero-image {
+    height: 600px;
     width: 100%;
     background: url("../../assets/images/brandingandreviews/img-20230506-wa0010.jpg") no-repeat center center;
     background-size: cover;
@@ -112,35 +116,35 @@ header{
     right: 150px;
 
     position: absolute;
-    
+
     border: 1px solid var(--accent-color);
 }
 
-#cover-text h2,h3{
+#cover-text h2, h3 {
     color: var(--text-color);
     text-align: center;
     padding-bottom: 10px;
 }
 
-#cover-text h2{
+#cover-text h2 {
     font-size: 120%;
     border-bottom: 1px solid var(--text-color);
 }
 
 
-
 /* Statement section */
-#statement{
+#statement {
     position: relative;
     padding-top: 75px;
     padding-bottom: 75px;
     height: 700px;
 }
-#statement > h2{
+
+#statement > h2 {
     text-align: center;
 }
 
-.statement_outer{
+.statement_outer {
     padding-top: 40px;
 }
 
@@ -150,40 +154,44 @@ header{
     margin-left: 60px;
 }
 
-.statement-image-container{
+.statement-image-container {
     width: 70%;
     overflow: hidden;
     margin-left: 15%;
 }
 
 
-#statement-image{
-   height: 600px;
+#statement-image {
+    height: 600px;
     object-position: top right;
 }
 
-.statement__inner{
+.statement__inner {
     float: right;
     height: 100%;
     width: 30%;
     margin-right: 100px;
     border: 1px solid var(--accent-color)
 }
-.statement__text{
+
+.statement__text {
     background-color: var(--secondary-color);
-  color: var(--text-color);
+    color: var(--text-color);
 }
-.statement__text h2{
+
+.statement__text h2 {
     font-size: 120%;
     border-bottom: 1px solid var(--text-color);
     text-align: center;
 }
-.statement__text ul{
-    
+
+.statement__text ul {
+
     padding-left: 20px;
     padding-right: 10px;
 }
-#book_link{
+
+#book_link {
     Color: var(--text-color);
     padding-top: 5%;
     text-align: center;
@@ -192,29 +200,29 @@ header{
     width: 30%;
     margin-right: 100px;
     text-decoration: none;
-   }
+}
 
-#book_link p{
+#book_link p {
     font-size: 150%;
-   border: .5px solid var(--accent-color);
+    border: .5px solid var(--accent-color);
     text-align: center;
     box-shadow: 1px 1px var(--accent-color), 2px 2px var(--accent-color), 3px 3px var(--accent-color), 4px 4px var(--accent-color);
 }
 
-#book_link p:hover{
+#book_link p:hover {
     border: .5px solid var(--text-color);
     background-color: var(--secondary-color);
 }
 
 /*Reviews*/
-.reviews{
+.reviews {
     padding: 0 5%;
     position: relative;
     padding-top: 75px;
     height: 600px;
 }
 
-.review_image{
+.review_image {
     width: 19.5%;
     height: 120%;
     float: left;
@@ -224,21 +232,19 @@ header{
     box-sizing: border-box;
     margin-right: .5%;
 
-   
+
     transition: transform 0.5s ease-in-out;
-   
+
     position: relative;
     z-index: 1;
 }
 
-.review_image:hover{
-   
+.review_image:hover {
+
     transform: scale(1.08);
- 
+
     z-index: 2;
 }
-
-
 
 
 /*tiktok embed*/
@@ -255,36 +261,40 @@ header{
 
 
 /* Footer */
-footer{
+footer {
     height: 100px;
     width: 100%;
     color: var(--text-color);
     text-align: center;
     line-height: 100px;
 }
-.social-networks{
+
+.social-networks {
     margin-right: 30px;
 }
-.social-networks li{
+
+.social-networks li {
     margin-right: 10px;
     display: inline;
 }
-.social-networks li a{
+
+.social-networks li a {
     color: var(--text-color);
     text-decoration: none;
     font-size: 150%;
     margin: 20px;
 }
-.social-networks li a:hover{
+
+.social-networks li a:hover {
     color: var(--accent-color);
 }
 
-#footer-section{
+#footer-section {
     clear: both;
     width: 100%;
 }
 
-footer h3{
+footer h3 {
     padding-top: 20px;
     font-size: 120%;
     text-transform: uppercase;
@@ -295,14 +305,15 @@ footer h3{
 
 
 /*about page*/
-#about-section{
+#about-section {
     padding-top: 0;
     text-align: center;
     float: right;
     width: 50%;
-    
+
 }
-#about-section h2{
+
+#about-section h2 {
     font-size: 50px;
     font-weight: 300;
     text-decoration: underline;
@@ -310,15 +321,15 @@ footer h3{
     padding-right: 60px;
 }
 
-#everything-about{
+#everything-about {
     height: 700px;
     text-align: center;
     padding-top: 200px;
-    
+
 }
 
-.mid-about{
-   width: 50%;
+.mid-about {
+    width: 50%;
     text-align: left;
     font-size: 150%;
     color: var(--text-color);
@@ -339,21 +350,21 @@ footer h3{
 }
 
 /*Services page*/
-#table-section{
+#table-section {
     color: var(--text-color);
 }
 
-#table-section table{
+#table-section table {
     border-collapse: collapse;
     width: 60%;
     color: var(--text-color);
     font-size: 20px;
     text-align: left;
     margin: 0 auto;
-    
+
 }
 
-#table-section caption{
+#table-section caption {
     font-size: 30px;
     margin-bottom: 20px;
     text-decoration: underline;
@@ -361,27 +372,26 @@ footer h3{
     padding-bottom: 60px;
 }
 
-#table-section th{
+#table-section th {
     color: var(--accent-color);
 }
 
 
-
 /*Gallery page*/
 
-#haircut-photos{
+#haircut-photos {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
-    
+
 }
 
-#haircut-photos img{
+#haircut-photos img {
     width: 100%;
 }
 
-#gallery-title{
+#gallery-title {
     text-align: center;
     padding-top: 75px;
     font-size: 300%;
@@ -394,48 +404,49 @@ footer h3{
 
 /*Contact page*/
 
-.contact_Master{
+.contact_Master {
     height: 700px;
     width: 100%;
     padding-top: 100px;
     color: var(--text-color);
-    
+
 }
 
-.contact-instagram{
+.contact-instagram {
     width: 30%;
     float: left;
     padding-left: 60px;
     color: var(--text-color);
 }
 
-.contact-instagram p{
+.contact-instagram p {
     font-size: 150%;
     margin-bottom: 20px;
 }
 
-.contact-instagram i{
+.contact-instagram i {
     color: var(--accent-color);
     font-size: 120%;
 }
 
-.map-form{
+.map-form {
     width: 50%;
     float: right;
     color: var(--text-color);
     padding-right: 30px;
 }
-.map-form h2{
+
+.map-form h2 {
     width: 30%;
 }
 
-.map-form iframe{
+.map-form iframe {
     margin: 0;
     width: 300px;
     height: 425px;
     border: 1px solid var(--text-color);
     border-radius: 10px;
-    
+
 }
 
 .map-form table {
@@ -444,40 +455,41 @@ footer h3{
     padding-right: 25%;
 }
 
-.map-form caption{
+.map-form caption {
     font-size: 150%;
     color: var(--accent-color);
     margin-top: 20px;
     padding-right: 60%;
 }
 
-.map-form th{
+.map-form th {
     font-size: 150%;
     margin-bottom: 10px;
     color: var(--accent-color);
     text-align: left;
     padding-right: 20px;
 }
-.map-form td{
+
+.map-form td {
     font-size: 120%;
     color: var(--text-color);
     padding-right: 20px;
 }
 
 
-
-.contact-form-section{
-    margin: 0 auto  ;
+.contact-form-section {
+    margin: 0 auto;
     color: var(--text-color);
     max-width: 800px;
     max-height: 600px;
     padding-bottom: 30px;
 }
 
-.contact-form{
+.contact-form {
     padding: 30px;
 }
-.text-input{
+
+.text-input {
     background: transparent;
     color: var(--text-color);
     width: 100%;
@@ -486,11 +498,12 @@ footer h3{
     border: 1px solid var(--text-color);
     border-radius: 2px;
 }
-.text-input:hover{
+
+.text-input:hover {
     border-color: var(--accent-color);
 }
 
-#extraInfo{
+#extraInfo {
     width: 100%;
     height: 100px;
     margin: 5px 0 20px 0;
@@ -500,30 +513,30 @@ footer h3{
     color: var(--text-color);
 }
 
-#extraInfo:hover{
+#extraInfo:hover {
     border-color: var(--accent-color);
 }
 
-.contact-button{
+.contact-button {
     margin-top: 20px;
     border-radius: 2px;
-    float:right;
-    padding:15px 32px;
+    float: right;
+    padding: 15px 32px;
     text-align: center;
-    font-size:100%;
+    font-size: 100%;
     background-color: var(--accent-color);
     color: var(--text-color);
     display: block;
 }
 
-.contact-button:hover{
+.contact-button:hover {
     background-color: var(--text-color);
     color: var(--accent-color);
 }
 
 /*Success*/
 
-#success-section{
+#success-section {
     height: 600px;
     width: 100%;
     padding-top: 100px;
@@ -531,13 +544,13 @@ footer h3{
     text-align: center;
 }
 
-#success-section p{
+#success-section p {
     padding: 0 5%;
     font-size: 150%;
     margin-bottom: 20px;
 }
 
-#success-section a{
+#success-section a {
     Color: var(--text-color);
     text-align: center;
     text-decoration: none;
@@ -548,7 +561,7 @@ footer h3{
 }
 
 
-#success-section a:hover{
+#success-section a:hover {
     border: 1px solid var(--text-color);
     background-color: var(--secondary-color);
 }
@@ -558,10 +571,10 @@ footer h3{
 
 /* Creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+    to {
         transform: scale(1.1);
     }
 }
@@ -569,48 +582,52 @@ footer h3{
 /* media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px)
-{
-    
-    .header__logo{
+@media screen and (max-width: 1200px) {
+
+    .header__logo {
         width: 100%;
         text-align: center;
     }
-    .nav{
+
+    .nav {
         width: 100%;
         text-align: center;
     }
-    .nav__link{
+
+    .nav__link {
         float: left;
         margin-left: 8%;
         margin-bottom: 20px;
         font-size: 120%;
     }
-    #left-about{
+
+    #left-about {
         width: 100%;
         height: 100%;
         margin: 0 auto;
     }
 
-    #about-section{
+    #about-section {
         text-align: center;
         width: 100%;
         margin: 0 auto;
     }
-    #about-section h2{
+
+    #about-section h2 {
         font-size: 50px;
         font-weight: 300;
         text-decoration: underline;
         text-decoration-thickness: 3px;
         padding-right: 60px;
     }
-    #about-section p{
+
+    #about-section p {
         font-size: 100%;
         color: var(--text-color);
         margin: 0 auto;
     }
-    
-    .mid-about{
+
+    .mid-about {
         width: 100%;
         color: var(--text-color);
         margin: 0 auto;
@@ -618,65 +635,66 @@ footer h3{
     }
 
     /*Services page*/
-    
-    #table-services{
+    #table-services {
         width: 100%;
         margin: 0 auto;
         padding: 0 2%;
     }
-    #table-section table{
+
+    #table-section table {
         width: 95%;
         font-size: 150%;
         text-align: left;
     }
 
-    #table-section caption{
+    #table-section caption {
         margin-bottom: 20px;
     }
 
 
     /*Contact page*/
-
-    .contact_Master{
+    .contact_Master {
         height: 1400px;
         width: 100%;
         padding-top: 100px;
     }
 
-    .contact-instagram{
+    .contact-instagram {
         width: 50%;
         float: none;
         padding-left: 0;
         margin: 0 auto;
     }
 
-    .contact-instagram h2{
+    .contact-instagram h2 {
         font-size: 150%;
         margin-bottom: 20px;
     }
-    .contact-instagram p{
+
+    .contact-instagram p {
         font-size: 180%;
         margin-bottom: 20px;
     }
 
-    .contact-instagram i{
+    .contact-instagram i {
         color: var(--accent-color);
         font-size: 120%;
     }
 
-    .map-form{
+    .map-form {
         width: 50%;
         float: none;
         color: var(--text-color);
         padding: 0;
         margin: 10px auto;
-        
+
     }
 
-    .map-form h2{
+    .map-form h2 {
         width: 75%;
     }
-    .map-form iframe{
+
+    .map-form iframe {
         margin: 0;
         width: 400px;
         height: 425px;
@@ -688,52 +706,54 @@ footer h3{
     .map-form table {
         height: 400px;
         float: none;
-       width: 503px;
+        width: 503px;
         margin: 0 auto;
         padding-right: 0;
     }
 
-    .map-form caption{
+    .map-form caption {
         font-size: 150%;
         color: var(--accent-color);
         margin-top: 20px;
         padding-right: 30%;
     }
 
-    .map-form th{
+    .map-form th {
         font-size: 150%;
         margin-bottom: 10px;
         color: var(--accent-color);
         text-align: left;
         padding-right: 20px;
     }
-    .map-form td{
+
+    .map-form td {
         font-size: 120%;
         color: var(--text-color);
         padding-right: 20px;
     }
 
 
-
-    .contact-form-section{
-        margin: 0 auto  ;
+    .contact-form-section {
+        margin: 0 auto;
         color: var(--text-color);
         max-width: 100%;
         max-height: 600px;
         padding-bottom: 30px;
     }
-    .contact-form-section h2{
+
+    .contact-form-section h2 {
         color: var(--text-color);
         max-width: 100%;
         max-height: 600px;
         padding-bottom: 30px;
-        margin: 0 auto  ;
+        margin: 0 auto;
     }
 
-    .contact-form{
+    .contact-form {
         padding: 30px;
     }
-    .text-input{
+
+    .text-input {
         background: transparent;
         color: var(--text-color);
         width: 100%;
@@ -742,11 +762,12 @@ footer h3{
         border: 1px solid var(--text-color);
         border-radius: 2px;
     }
-    .text-input:hover{
+
+    .text-input:hover {
         border-color: var(--accent-color);
     }
 
-    #extraInfo{
+    #extraInfo {
         width: 100%;
         height: 100px;
         margin: 5px 0 20px 0;
@@ -756,17 +777,17 @@ footer h3{
         color: var(--text-color);
     }
 
-    #extraInfo:hover{
+    #extraInfo:hover {
         border-color: var(--accent-color);
     }
 
-    .contact-button{
+    .contact-button {
         margin-top: 20px;
         border-radius: 2px;
-        float:right;
-        padding:15px 32px;
+        float: right;
+        padding: 15px 32px;
         text-align: center;
-        font-size:100%;
+        font-size: 100%;
         background-color: var(--accent-color);
         color: var(--text-color);
         display: block;
@@ -775,33 +796,34 @@ footer h3{
 
 
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
 
-    .header__logo{
+    .header__logo {
         width: 100%;
         text-align: center;
     }
-    .nav{
+
+    .nav {
         width: 100%;
         text-align: center;
     }
-    .nav__link{
+
+    .nav__link {
         float: left;
         margin-left: 5%;
         margin-bottom: 20px;
         font-size: 100%;
     }
 
-    #hero-outer{
+    #hero-outer {
         padding-top: 0;
-        height:600px;
+        height: 600px;
         width: 100%;
         overflow: hidden;
         position: relative;
     }
 
     /* Index Page */
-    
     #cover-text {
         font-size: 130%;
         text-transform: uppercase;
@@ -823,18 +845,18 @@ footer h3{
         border: 1px solid var(--accent-color);
     }
 
-    #cover-text h2,h3{
+    #cover-text h2, h3 {
         color: var(--text-color);
         text-align: center;
         padding-bottom: 10px;
     }
 
-    #cover-text h2{
+    #cover-text h2 {
         font-size: 120%;
         border-bottom: 1px solid var(--text-color);
     }
 
-    #statement{
+    #statement {
         height: 1000px;
         width: 100%;
     }
@@ -849,14 +871,14 @@ footer h3{
     }
 
 
-    .statement-image-container{
+    .statement-image-container {
         width: 70%;
         overflow: hidden;
         margin: 0 auto;
     }
 
 
-    #statement-image{
+    #statement-image {
         height: 600px;
         object-position: top right;
     }
@@ -874,27 +896,31 @@ footer h3{
         background-color: #1f1f1f !important;
     }
 
-    .statement__inner{
+    .statement__inner {
         clear: both;
         margin: 0 auto;
         width: 650px;
         float: none;
     }
-    .statement__text{
+
+    .statement__text {
         background-color: var(--secondary-color);
         color: var(--text-color);
     }
-    .statement__text h2{
+
+    .statement__text h2 {
         font-size: 120%;
         border-bottom: 1px solid var(--text-color);
         text-align: center;
     }
-    .statement__text ul{
+
+    .statement__text ul {
 
         padding-left: 20px;
         padding-right: 10px;
     }
-    #book_link{
+
+    #book_link {
         Color: var(--text-color);
         padding-top: 5%;
         text-align: center;
@@ -907,26 +933,26 @@ footer h3{
         margin: 0 auto;
     }
 
-    #book_link p{
+    #book_link p {
         font-size: 150%;
         border: .5px solid var(--accent-color);
         text-align: center;
         box-shadow: 1px 1px var(--accent-color), 2px 2px var(--accent-color), 3px 3px var(--accent-color), 4px 4px var(--accent-color);
     }
 
-    #book_link p:hover{
+    #book_link p:hover {
         border: .5px solid var(--text-color);
         background-color: var(--secondary-color);
     }
 
     /*Reviews*/
-    .reviews{
+    .reviews {
         padding: 0 0;
         padding-top: 75px;
         height: 600px;
     }
 
-    .review_image{
+    .review_image {
         width: 80%;
         height: 100%;
         margin: 10px 10%;
@@ -938,9 +964,8 @@ footer h3{
         margin-right: 0;
     }
 
-  /* Gallery Pages */
-
-    #haircut-photos{
+    /* Gallery Pages */
+    #haircut-photos {
         clear: both;
         line-height: 0;
         column-count: 2;
@@ -948,33 +973,33 @@ footer h3{
 
     }
 
-    #haircut-photos img{
+    #haircut-photos img {
         width: 100%;
     }
-   /* contact page */
- 
-    .map-form h2{
+
+    /* contact page */
+    .map-form h2 {
         width: 100%;
     }
-    
-    
 
 
 }
 
 /* For small screens sizes from 750px wide and down */
-@media screen and (max-width: 750px){
-    
-    .header__logo{
+@media screen and (max-width: 750px) {
+
+    .header__logo {
         width: 90%;
         text-align: center;
     }
-    .nav{
+
+    .nav {
         width: 100%;
         text-align: center;
         padding-bottom: 60px;
     }
-    .nav__link{
+
+    .nav__link {
         float: none;
         margin-left: 2%;
         margin-bottom: 10px;
@@ -982,20 +1007,19 @@ footer h3{
         font-size: 120%;
     }
 
-    .active{
+    .active {
         border-bottom: .1px solid var(--text-color);
     }
 
-    #hero-outer{
+    #hero-outer {
         padding-top: 0;
-        height:600px;
+        height: 600px;
         width: 100%;
         overflow: hidden;
         position: relative;
     }
 
     /* Index Page */
-
     #cover-text {
         font-size: 130%;
         text-transform: uppercase;
@@ -1017,18 +1041,18 @@ footer h3{
         border: 1px solid var(--accent-color);
     }
 
-    #cover-text h2,h3{
+    #cover-text h2, h3 {
         color: var(--text-color);
         text-align: center;
         padding-bottom: 10px;
     }
 
-    #cover-text h2{
+    #cover-text h2 {
         font-size: 120%;
         border-bottom: 1px solid var(--text-color);
     }
 
-    #statement{
+    #statement {
         height: 1000px;
         width: 100%;
     }
@@ -1043,14 +1067,14 @@ footer h3{
     }
 
 
-    .statement-image-container{
+    .statement-image-container {
         width: 95%;
         overflow: hidden;
         margin: 0 auto;
     }
 
 
-    #statement-image{
+    #statement-image {
         height: 600px;
         object-position: top right;
     }
@@ -1068,24 +1092,26 @@ footer h3{
         background-color: #1f1f1f !important;
     }
 
-    .statement__inner{
+    .statement__inner {
         clear: both;
         margin: 0 auto;
         width: 90%;
         float: none;
     }
-   
-    .statement__text h2{
+
+    .statement__text h2 {
         font-size: 120%;
         border-bottom: 1px solid var(--text-color);
         text-align: center;
     }
-    .statement__text ul{
+
+    .statement__text ul {
 
         padding-left: 20px;
         padding-right: 10px;
     }
-    #book_link{
+
+    #book_link {
         Color: var(--text-color);
         padding-top: 5%;
         text-align: center;
@@ -1098,26 +1124,26 @@ footer h3{
         margin: 0 auto;
     }
 
-    #book_link p{
+    #book_link p {
         font-size: 150%;
         border: .5px solid var(--accent-color);
         text-align: center;
         box-shadow: 1px 1px var(--accent-color), 2px 2px var(--accent-color), 3px 3px var(--accent-color), 4px 4px var(--accent-color);
     }
 
-    #book_link p:hover{
+    #book_link p:hover {
         border: .5px solid var(--text-color);
         background-color: var(--secondary-color);
     }
 
     /*Reviews*/
-    .reviews{
+    .reviews {
         padding: 0 0;
         padding-top: 75px;
         height: 600px;
     }
 
-    .review_image{
+    .review_image {
         width: 80%;
         height: 100%;
         margin: 10px 10%;
@@ -1130,8 +1156,7 @@ footer h3{
     }
 
     /* Gallery Pages */
-
-    #haircut-photos{
+    #haircut-photos {
         clear: both;
         line-height: 0;
         column-count: 2;
@@ -1139,12 +1164,12 @@ footer h3{
 
     }
 
-    #haircut-photos img{
+    #haircut-photos img {
         width: 100%;
     }
-    
+
     /* about page */
-    #left-about{
+    #left-about {
         padding-top: 50px;
         width: 100%;
         height: 400px;
@@ -1159,7 +1184,7 @@ footer h3{
         object-position: center;
     }
 
-    .mid-about{
+    .mid-about {
         width: 90%;
         color: var(--text-color);
         margin: 0 auto;
@@ -1175,37 +1200,37 @@ footer h3{
         margin: 0 auto
     }
 
-    
-    /*Contact page*/
 
-    .contact_Master{
+    /*Contact page*/
+    .contact_Master {
         height: 1400px;
         width: 100%;
         padding-top: 100px;
     }
 
-    .contact-instagram{
+    .contact-instagram {
         width: 80%;
         float: none;
         padding-left: 0;
         margin: 0 auto;
     }
 
-    .contact-instagram h2{
+    .contact-instagram h2 {
         font-size: 150%;
         margin-bottom: 20px;
     }
-    .contact-instagram p{
+
+    .contact-instagram p {
         font-size: 170%;
         margin-bottom: 20px;
     }
 
-    .contact-instagram i{
+    .contact-instagram i {
         color: var(--accent-color);
         font-size: 120%;
     }
 
-    .map-form{
+    .map-form {
         width: 80%;
         float: none;
         color: var(--text-color);
@@ -1214,7 +1239,7 @@ footer h3{
 
     }
 
-    .map-form iframe{
+    .map-form iframe {
         margin: 0;
         width: 100%;
         height: 425px;
@@ -1230,14 +1255,14 @@ footer h3{
         margin: 0 auto;
         padding-right: 0;
     }
-    .contact-form{
+
+    .contact-form {
         padding-top: 50px;
     }
 }
 
 /* For small screens sizes from 320px wide and down */
-@media screen and (max-width: 320px) 
-{
+@media screen and (max-width: 320px) {
     #cover-text {
         font-size: 130%;
         text-transform: uppercase;
@@ -1258,8 +1283,8 @@ footer h3{
 
         border: 1px solid var(--accent-color);
     }
-    
-    .contact_Master{
+
+    .contact_Master {
         height: 1500px;
         width: 100%;
         padding-top: 100px;
