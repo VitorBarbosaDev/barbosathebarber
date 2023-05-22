@@ -55,6 +55,12 @@ header {
     color: var(--primary-color);
 }
 
+.only-for-screen-reader > h2 {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
 /* navigation links */
 .nav {
     float: right;
@@ -458,8 +464,7 @@ footer h3 {
 .map-form caption {
     font-size: 150%;
     color: var(--accent-color);
-    margin-top: 20px;
-    padding-right: 60%;
+    padding-right: 30%;
 }
 
 .map-form th {
@@ -581,12 +586,19 @@ footer h3 {
 
 /* media queries */
 
+@media screen and (max-width: 1650px) {
+    .map-form table {
+        padding-right: 5%;
+    }
+}
+
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
     .header__logo {
         width: 100%;
         text-align: center;
+        margin: 0 auto;
     }
 
     .nav {
@@ -628,7 +640,7 @@ footer h3 {
     }
 
     .mid-about {
-        width: 100%;
+        width: 90%;
         color: var(--text-color);
         margin: 0 auto;
         padding: 0 2%;
@@ -989,8 +1001,9 @@ footer h3 {
 @media screen and (max-width: 750px) {
 
     .header__logo {
-        width: 90%;
+        width: 100%;
         text-align: center;
+        margin: 0 auto;
     }
 
     .nav {
@@ -1197,13 +1210,14 @@ footer h3 {
         text-decoration: underline;
         text-decoration-thickness: 3px;
         padding-right: 0;
-        margin: 0 auto
+        margin: 0 auto;
+        padding-top: 200px;
     }
 
 
     /*Contact page*/
     .contact_Master {
-        height: 1400px;
+        height: 1500px;
         width: 100%;
         padding-top: 100px;
     }
@@ -1261,6 +1275,18 @@ footer h3 {
     }
 }
 
+@media screen and (max-width: 520px) {
+    #about-section h2 {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #cover-text {
+        right: 10px
+    }
+}
+
 /* For small screens sizes from 320px wide and down */
 @media screen and (max-width: 320px) {
     #cover-text {
@@ -1285,7 +1311,7 @@ footer h3 {
     }
 
     .contact_Master {
-        height: 1500px;
+        height: 1600px;
         width: 100%;
         padding-top: 100px;
     }
