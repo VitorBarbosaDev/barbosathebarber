@@ -33,14 +33,15 @@ The Automated Testing includes all the testing that is carried out by a program,
 
 ###  W3C Validator
 
+#### Results for Index.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/71a6e6f1-6940-47a0-84ea-7b3775e23cd4)
-
+#### Results for About.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/bedabb85-560b-47d0-8df7-60c34f7ea6dd)
-
+#### Results for Sevices.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/3746ebd9-0bb9-40cf-93ff-faa5d50b2fe6)
-
+#### Results for Gallery.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/785b8371-52aa-47e7-9974-0c71b9d079c4)
-
+#### Results for Contact.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/4aaef14f-9ad1-4e7d-822d-f3cdb2c49900)
 
 
@@ -52,28 +53,30 @@ The Automated Testing includes all the testing that is carried out by a program,
 ### Lighthouse
 #### Desktop Testing
 
+#### Results for Index.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/409eb545-28ac-4801-939f-0340e321b7f6)
-
+#### Results for About.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/e4279f4a-a93c-4008-af7e-81801ee4ccfb)
-
+#### Results for Sevices.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/f6152ac7-f451-4678-b788-3666d64f5438)
-
+#### Results for Gallery.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/d7470fbc-74c8-4131-9388-86b80ec1b660)
-
+#### Results for Contact.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/3236ce22-14dc-4d12-9b20-81f637b0e295)
 
 From my understanding the reason why this page is slow is because of the maps and time it takes to load.
 
 #### Mobile Testing
 
+#### Results for Index.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/fb50fd04-abbf-4b1a-8029-40ad57d0f6a9)
-
+#### Results for About.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/3e16af80-abe8-449e-9997-95cabe18e3d9)
-
+#### Results for Sevices.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/92744831-8d23-4948-af1c-2cb72e840717)
-
+#### Results for Gallery.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/78362ffc-7271-445d-b4bc-856d6238ad77)
-
+#### Results for Contact.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/c12aa3d5-fcb0-441e-a3d8-475bd48598b5)
 
 
