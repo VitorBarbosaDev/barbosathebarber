@@ -86,19 +86,19 @@ From my understanding the reason why this page is slow is because of the maps an
 Wave was used to test the accessibility of each page 
 
 #### Results for Index.html
-- ![Wave for Index](assets/images/testingimages/wave-index.png)
+- [Wave for Index](assets/images/testingimages/wave-index.png)
 
 #### Results for About.html
-- ![Wave for About](assets/images/testingimages/wave-about.png)
+- [Wave for About](assets/images/testingimages/wave-about.png)
 
 #### Results for Services.html
-- ![Wave for Services](assets/images/testingimages/wave-services.png)
+- [Wave for Services](assets/images/testingimages/wave-services.png)
 
 #### Results for Gallery.html
-- ![Wave for Gallery](assets/images/testingimages/wave-gallery.png)
+- [Wave for Gallery](assets/images/testingimages/wave-gallery.png)
 
 #### Results for Contact.html
-- ![Wave for Contact](assets/images/testingimages/wave-contact.png)
+- [Wave for Contact](assets/images/testingimages/wave-contact.png)
 
 The Contact page had a contrast error related to the styling on the button. 
 You can view the error in this image: [Wave Contact Page Contrast Error](assets/images/testingimages/wave-contact-error.png).
