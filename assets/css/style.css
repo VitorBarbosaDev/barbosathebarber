@@ -464,7 +464,7 @@ footer h3 {
 .map-form caption {
     font-size: 150%;
     color: var(--accent-color);
-    padding-right: 30%;
+    padding-right: 60%;
 }
 
 .map-form th {
@@ -589,6 +589,12 @@ footer h3 {
 @media screen and (max-width: 1650px) {
     .map-form table {
         padding-right: 5%;
+    }
+
+    .map-form caption {
+        font-size: 150%;
+        color: var(--accent-color);
+        padding-right: 30%;
     }
 }
 
