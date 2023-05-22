@@ -100,9 +100,8 @@ Wave was used to test the accessibility of each page
 #### Results for Contact.html
 ![Wave for Contact](assets/images/testingimages/wave-contact.png)
 
-This page was the only one that had a contrast error and it was in reference to the styling on the button.
-
-![Wave Contact Page Contrast Error](assets/images/testingimages/wave-contact-error.png)
+The Contact page had a contrast error related to the styling on the button. 
+You can view the error in this image: https://github.com/VitorBarbosaDev/barbosathebarber/blob/main/assets/images/testingimages/wave-contact-error.png
 
 As you can see I white and gold and thats why it throw this error but it fit with my style and for all the other buttons they have a black background ,white text and gold border.
 So I think I will leave this one as it is as I like the way it looks and it fits the style of the page but in future I will definitly be more careful on picking my color combinations.
