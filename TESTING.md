@@ -32,6 +32,7 @@ Live Site : https://vitorbarbosadev.github.io/barbosathebarber/
 The Automated Testing includes all the testing that is carried out by a program, like W3C HTML validation.
 
 ###  W3C Validator
+W3C was used to validate all pages and also the css.
 
 #### Results for Index.html
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/71a6e6f1-6940-47a0-84ea-7b3775e23cd4)
@@ -51,6 +52,7 @@ The Automated Testing includes all the testing that is carried out by a program,
 
 
 ### Lighthouse
+Lighthouse was used to on all pages below are the results
 #### Desktop Testing
 
 #### Results for Index.html
@@ -81,14 +83,29 @@ From my understanding the reason why this page is slow is because of the maps an
 
 
 ### WAVE
+Wave was used to test the accessibility of each page 
 
-👩🏻‍💻 View an example of a completed WAVE testing section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022/blob/main/TESTING.md#WAVE)
+#### Results for Index.html
+![Wave for Index](assets/images/testingimages/wave-index.png)
 
-[WAVE](https://wave.webaim.org/) is an accessibility testing tool. I like to run this on each page of my site and take a screenshot of the results to add here. They have a website for testing and a Chrome extension.
+#### Results for About.html
+![Wave for About](assets/images/testingimages/wave-about.png)
 
-![Wave Desktop](documentation/milestone1-testing/wave-desktop.png)
+#### Results for Services.html
+![Wave for Services](assets/images/testingimages/wave-services.png)
 
-![Wave Exetension](documentation/milestone1-testing/wqave-extension.png)
+#### Results for Gallery.html
+![Wave for Gallery](assets/images/testingimages/wave-gallery.png)
+
+#### Results for Contact.html
+![Wave for Contact](assets/images/testingimages/wave-contact.png)
+
+This page was the only one that had a contrast error and it was in reference to the styling on the button.
+
+![Wave Contact Page Contrast Error](assets/images/testingimages/wave-contact-error.png)
+
+As you can see I white and gold and thats why it throw this error but it fit with my style and for all the other buttons they have a black background ,white text and gold border.
+So I think I will leave this one as it is as I like the way it looks and it fits the style of the page but in future I will definitly be more careful on picking my color combinations.
 
 ## MANUAL TESTING
 
