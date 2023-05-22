@@ -103,10 +103,9 @@ Wave was used to test the accessibility of each page
 The Contact page had a contrast error related to the styling on the button. 
 You can view the error in this image: [Wave Contact Page Contrast Error](assets/images/testingimages/wave-contact-error.png).
 
-You mentioned that the button on the Contact page has a white and gold color combination, which caused the contrast error. However, you like the way it looks and feel it fits the style of the page, so you've decided to leave it as it is. In the future, you plan to be more careful when selecting color combinations.
+Upon reviewing the results, I noticed that the contrast error occurred due to the white and gold color combination. Although it deviates from the recommended contrast standards, I personally find it visually appealing and believe it complements the overall style of the page. It's worth noting that all the other buttons feature a black background, white text, and a gold border.
 
-As you can see I white and gold and thats why it throw this error but it fit with my style and for all the other buttons they have a black background ,white text and gold border.
-So I think I will leave this one as it is as I like the way it looks and it fits the style of the page but in future I will definitly be more careful on picking my color combinations.
+Considering these factors, I have decided to maintain the current appearance of the button on the Contact page. However, I acknowledge the importance of being more attentive to color combinations in the future to ensure better accessibility and compliance with standards.
 
 ## MANUAL TESTING
 
