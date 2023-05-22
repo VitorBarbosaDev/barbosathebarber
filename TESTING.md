@@ -33,16 +33,15 @@ The Automated Testing includes all the testing that is carried out by a program,
 
 ###  W3C Validator
 
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/71a6e6f1-6940-47a0-84ea-7b3775e23cd4)
 
-![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/f3fd97d8-9b01-4020-81ce-d4f0a1cb1d71)
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/bedabb85-560b-47d0-8df7-60c34f7ea6dd)
 
-![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/75d0d62d-7d9a-434a-8398-34032f027470)
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/3746ebd9-0bb9-40cf-93ff-faa5d50b2fe6)
 
-![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/9c6ffc90-87ad-4602-ac92-e87973f94ad4)
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/785b8371-52aa-47e7-9974-0c71b9d079c4)
 
-![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/b0956e80-b92b-4aa4-98c0-6e88b18c09a9)
-
-![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/f392ecbc-f530-477b-8e8f-8421fdc729b2)
+![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/4aaef14f-9ad1-4e7d-822d-f3cdb2c49900)
 
 
 #### **CSS Validation**
