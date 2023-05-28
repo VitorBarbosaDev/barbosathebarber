@@ -131,15 +131,68 @@ Considering these factors, I have decided to maintain the current appearance of 
 
 ### Full Testing
 
-👩🏻‍💻 View an example of a completed full testing section [here](https://github.com/kera-cudmore/TheQuizArms/blob/main/TESTING.md#Full-Testing)
+Full testing was performed on the following devices:
 
-Full testing can be tedious, so it is great to try and break this part up into smaller chunks and do a bit at a time. Full testing is when you go through the site and test every single thing that can be tested. So for example you would test that all links in the navbar correctly redirect the user to where there are supposed to go. A table is the perfect way to display this information.
+* Computer:
+  * 1440p Monitor
+  * 1080p Monitor
+* Laptop:
+  * Macbook Pro 2022 14 inch screen
+* Mobile Devices:
+  * Pocophone f3.
+  * Samsung Galaxy S20 Ultra .
+
+Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
+* Firefox
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| `Navbar` |
+|  |  |  |  |  |
+| Logo | When clicked the user will be redirected to the home page. | Clicked Logo | Redirected to the home page. | Pass |
+| Home Page Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
+| About Link | When clicked the user will be redirected to the About page. | Clicked link | Redirected to the About page. | Pass |
+| Services Link | When clicked the user will be redirected to the Services page. | Clicked link | Redirected to the Services page | Pass |
+| Gallery Link | When clicked the user will be redirected to the Gallery page. | Clicked link | Redirected to the Gallery page | Pass |
+| Contact Link | When clicked the user will be redirected to the Contact page. | Clicked link | Redirected to the Contact page | Pass |
+| `Footer` |
+|  |  |  |  |  |
+| Tiktok Button | When clicked the user will be redirected to Guilherms Tiktok page on new tab. | Clicked button | Redirected to the Guilherms Tiktok page. | Pass |
+| Instagram Button |  When clicked the user will be redirected to Guilherms Instagram page on new tab. | Clicked button | Redirected to the Guilherms Instagram page. | Pass |
+| `Home Page` |
+|   |   |   |   |
+| Book Right Now | When clicked the user will be redirected to the contact page. | Clicked link  | Redirected to the contact page | Pass |
+| Review Photos are reponsive | When hovered over the picture grows larger. | hovered photo  | Image got larger and overlayed properly | Pass |
+| Tiktok Section loads and plays video | When videos are hovered over they start playing and once clicked they open. | hover and clicked | on click was redirected to Tiktok page and on hovered allowed me to view the tiktok clips | Pass |
+| `About Page` |
+|   |   |   |   |  |
+| Page layout Properly | The image goes to the left and text on right | loaded page | The image displays on the left and text on the right | Pass |
+| `Services Page` |
+|   |   |   |   |  |
+| Page layout Properly | Table loaded in center | loaded page | Table loaded in center | Pass |
+| `Gallery Page` |
+|   |   |   |   |  |
+| Load Images and lay them out in a column of three | Load Images and lay them out in a column of three | loaded page | Pages loads and the images format into a column of three | Pass |
+| `Contact Page` |
+| Page layout Properly | There should be a section on the left with contact me on instagram section then on the right there is a map loaction and time.Below a form should load  | loaded page | The instagram section is located to the left and the map and time but are located to the right and below the book your cut form appears | Pass |
+| Instagram Button |  When clicked the user will be redirected to Guilherms Instagram page on new tab. | Clicked button | Redirected to the Guilherms Instagram page. | Pass |
+| Form Validation | User should be unable to submit if first name ,last name ,email address and a day isn't selected | Don't fill in each individual element then click on Book button | Form submit gets rejected until all the required elements are filled in | Pass |
+| Form Submition | User should be able to submit form and be redirected to the sucess page | click on Book button | Form submits and user gets redirected to success page | Pass |
+| `Success Page` |
+|   |   |   |   |   |
+| Home page link | Redirects the user to the home page | Clicked link | Redirected to home page | Pass |
+
+ - - -
+
 
 ## BUGS
 
 ### Known Bugs
 
-There are no bugs that I know of.
+As far as I'm aware, there are currently no known bugs.
 
 ### Solved Bugs
 
