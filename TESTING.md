@@ -196,6 +196,10 @@ As far as I'm aware, there are currently no known bugs.
 
 ### Solved Bugs
 
-👩🏻‍💻View an example of a completed bugs section [here](https://github.com/kera-cudmore/BookWorm/blob/main/TESTING.md#BUGS)
+| No | Bug | How I resolved the issue |
+| :--- | :--- | :--- |
+| 1 | The photo in the why Cut With Me section had a lot of space on the right | To Fix this I added a container on top of the image which allowed me to crop the right side of the image to look how i wanted it to  |
+| 2 | The About page format kept breaking between 752 - 500px | In order to fix this I needed to add additonal media quieres and adjusted the format for these resoultions |
+| 3 | The Contact page format kept breaking between 1550px - 1200px | In order to fix this I needed to add additonal media quieres and adjusted the format for these resoultions. |
+| 4 | The header was causing the certain pages to have a horizontal scroll | In order to fix this I needed to remove the padding that was present as this combined with width:100% was casusing errors as the header would take up a bit more room then what it should.I also added a marign:0 auto; to then center the logo in the middle of the page |
 
-This is where all solved bugs go once squashed. List what the bug was, and how you managed to fix it. You can also include images/videos here if you wanted.
