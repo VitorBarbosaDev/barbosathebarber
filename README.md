@@ -208,19 +208,19 @@ HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-Balsamiq - Employed for wireframe development.
+[Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=Cj0KCQjw98ujBhCgARIsAD7QeAh16EIe0q-IcDgGy2cm6wVutbTvuPBEZIro7SJRukcMBV_wYQTJqR8aAl8aEALw_wcB) - Employed for wireframe development.
 
-Git - Utilized for managing different versions of the project.
+[Git](https://git-scm.com/) - Utilized for managing different versions of the project.
 
-Github - Used as a repository to save and store the website's files.
+[Github](https://github.com/) - Used as a repository to save and store the website's files.
 
-Google Fonts - Imported to use specific fonts on the website.
+[Google Fonts](https://fonts.google.com/) - Imported to use specific fonts on the website.
 
-Font Awesome - Incorporated for the website's icons.
+[Font Awesome](https://fontawesome.com/) - Incorporated for the website's icons.
 
 [Am I Responsive?](https://ui.dev/amiresponsive) - Used to display the website's image across various devices.
 
-Photopea - Utilized for icon creation.
+[Photopea](https://www.photopea.com/) - Utilized for icon creation.
 
 ## Deployment & Local Development
 
@@ -259,7 +259,7 @@ To clone the Barbosathebarber repository, follow these steps:
 
 ## Testing
 
-You can view the testing that was done in the testing.md file that I created [here](barbosathebarber-testing.md)
+You can view the testing that was done in the testing.md file that I created [here](TESTING.md))
 
 
 ## Credits
