@@ -121,7 +121,7 @@ Considering these factors, I have decided to maintain the current appearance of 
 | I want to be able to find their social media profiles so I can see what their most recent cuts look like. | Social media links are at the bottom of the site. | :--- |
 |`Returning Visitors`|
 |  |  |  |
-| I want to see if any new photos have been added to the gallery. | They can click on the gallery link and view all the photos there. | :--- |
+| I want to see if any new photos have been added to the gallery. | They can click on the gallery link and view any new photos there. | :--- |
 | I want to book another haircut. | They can click on the contact page. On that page, there is a link to Instagram where they can direct message, or a submission form that is locationed at the bottom of the contact page. | :--- |
 | I want to find social media links. | Social media links are in the footer on each page. | :--- |
 |`Frequent Visitor Goals` |
