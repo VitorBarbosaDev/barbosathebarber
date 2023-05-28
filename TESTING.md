@@ -148,42 +148,45 @@ Each device tested the site using the following browsers:
 * Safari
 * Firefox
 
+
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | `Navbar` |
 |  |  |  |  |  |
-| Logo | When clicked the user will be redirected to the home page. | Clicked Logo | Redirected to the home page. | Pass |
-| Home Page Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
-| About Link | When clicked the user will be redirected to the About page. | Clicked link | Redirected to the About page. | Pass |
-| Services Link | When clicked the user will be redirected to the Services page. | Clicked link | Redirected to the Services page | Pass |
-| Gallery Link | When clicked the user will be redirected to the Gallery page. | Clicked link | Redirected to the Gallery page | Pass |
-| Contact Link | When clicked the user will be redirected to the Contact page. | Clicked link | Redirected to the Contact page | Pass |
+| Logo | When clicked, the user will be redirected to the home page. | Clicked Logo | Redirected to the home page. | Pass |
+| Home Page Link | When clicked, the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
+| About Link | When clicked, the user will be redirected to the About page. | Clicked link | Redirected to the About page. | Pass |
+| Services Link | When clicked, the user will be redirected to the Services page. | Clicked link | Redirected to the Services page. | Pass |
+| Gallery Link | When clicked, the user will be redirected to the Gallery page. | Clicked link | Redirected to the Gallery page. | Pass |
+| Contact Link | When clicked, the user will be redirected to the Contact page. | Clicked link | Redirected to the Contact page. | Pass |
 | `Footer` |
 |  |  |  |  |  |
-| Tiktok Button | When clicked the user will be redirected to Guilherms Tiktok page on new tab. | Clicked button | Redirected to the Guilherms Tiktok page. | Pass |
-| Instagram Button |  When clicked the user will be redirected to Guilherms Instagram page on new tab. | Clicked button | Redirected to the Guilherms Instagram page. | Pass |
+| Tiktok Button | When clicked, the user will be redirected to Guilherme's Tiktok page in a new tab. | Clicked button | Redirected to Guilherme's Tiktok page. | Pass |
+| Instagram Button |  When clicked, the user will be redirected to Guilherme's Instagram page in a new tab. | Clicked button | Redirected to Guilherme's Instagram page. | Pass |
 | `Home Page` |
 |   |   |   |   |
-| Book Right Now | When clicked the user will be redirected to the contact page. | Clicked link  | Redirected to the contact page | Pass |
-| Review Photos are reponsive | When hovered over the picture grows larger. | hovered photo  | Image got larger and overlayed properly | Pass |
-| Tiktok Section loads and plays video | When videos are hovered over they start playing and once clicked they open. | hover and clicked | on click was redirected to Tiktok page and on hovered allowed me to view the tiktok clips | Pass |
+| Book Right Now | When clicked, the user will be redirected to the contact page. | Clicked link  | Redirected to the contact page. | Pass |
+| Review Photos are responsive | When hovered over, the picture grows larger. | Hovered over photo  | Image got larger and overlayed properly. | Pass |
+| Tiktok Section loads and plays video | When videos are hovered over, they start playing and once clicked, they open. | Hovered over and clicked | On click, was redirected to Tiktok page and on hover, allowed me to view the Tiktok clips. | Pass |
 | `About Page` |
 |   |   |   |   |  |
-| Page layout Properly | The image goes to the left and text on right | loaded page | The image displays on the left and text on the right | Pass |
+| Page layout Properly | The image goes to the left and text on right. | Loaded page | The image displays on the left and text on the right. | Pass |
 | `Services Page` |
 |   |   |   |   |  |
-| Page layout Properly | Table loaded in center | loaded page | Table loaded in center | Pass |
+| Page layout Properly | Table loaded in center. | Loaded page | Table loaded in center. | Pass |
 | `Gallery Page` |
 |   |   |   |   |  |
-| Load Images and lay them out in a column of three | Load Images and lay them out in a column of three | loaded page | Pages loads and the images format into a column of three | Pass |
+| Load Images and lay them out in a column of three | Load Images and lay them out in a column of three. | Loaded page | Pages load and the images format into a column of three. | Pass |
 | `Contact Page` |
-| Page layout Properly | There should be a section on the left with contact me on instagram section then on the right there is a map loaction and time.Below a form should load  | loaded page | The instagram section is located to the left and the map and time but are located to the right and below the book your cut form appears | Pass |
-| Instagram Button |  When clicked the user will be redirected to Guilherms Instagram page on new tab. | Clicked button | Redirected to the Guilherms Instagram page. | Pass |
-| Form Validation | User should be unable to submit if first name ,last name ,email address and a day isn't selected | Don't fill in each individual element then click on Book button | Form submit gets rejected until all the required elements are filled in | Pass |
-| Form Submition | User should be able to submit form and be redirected to the sucess page | click on Book button | Form submits and user gets redirected to success page | Pass |
+| Page layout Properly | There should be a section on the left with "contact me on Instagram" section then on the right there is a map location and time. Below, a form should load.  | Loaded page | The Instagram section is located to the left and the map and time are located to the right. Below, the "book your cut" form appears. | Pass |
+| Instagram Button |  When clicked, the user will be redirected to Guilherme's Instagram page in a new tab. | Clicked button | Redirected to Guilherme's Instagram page.
+
+| Pass |
+| Form Validation | User should be unable to submit if first name, last name, email address, and a day isn't selected. | Didn't fill in each individual element then clicked on Book button. | Form submission gets rejected until all the required elements are filled in. | Pass |
+| Form Submission | User should be able to submit form and be redirected to the success page. | Clicked on Book button. | Form submits and user gets redirected to success page. | Pass |
 | `Success Page` |
 |   |   |   |   |   |
-| Home page link | Redirects the user to the home page | Clicked link | Redirected to home page | Pass |
+| Home page link | Redirects the user to the home page. | Clicked link | Redirected to home page. | Pass |
 
  - - -
 
@@ -194,12 +197,13 @@ Each device tested the site using the following browsers:
 
 As far as I'm aware, there are currently no known bugs.
 
+
 ### Solved Bugs
 
 | No | Bug | How I resolved the issue |
 | :--- | :--- | :--- |
-| 1 | The photo in the why Cut With Me section had a lot of space on the right | To Fix this I added a container on top of the image which allowed me to crop the right side of the image to look how i wanted it to  |
-| 2 | The About page format kept breaking between 752 - 500px | In order to fix this I needed to add additonal media quieres and adjusted the format for these resoultions |
-| 3 | The Contact page format kept breaking between 1550px - 1200px | In order to fix this I needed to add additonal media quieres and adjusted the format for these resoultions. |
-| 4 | The header was causing the certain pages to have a horizontal scroll | In order to fix this I needed to remove the padding that was present as this combined with width:100% was casusing errors as the header would take up a bit more room then what it should.I also added a marign:0 auto; to then center the logo in the middle of the page |
+| 1 | The photo in the "Why Cut With Me" section had a lot of space on the right. | To fix this, I added a container on top of the image which allowed me to crop the right side of the image to look how I wanted it to. |
+| 2 | The format of the "About" page kept breaking between 752 - 500px. | In order to fix this, I needed to add additional media queries and adjusted the format for these resolutions. |
+| 3 | The format of the "Contact" page kept breaking between 1550px - 1200px. | In order to fix this, I needed to add additional media queries and adjusted the format for these resolutions. |
+| 4 | The header was causing certain pages to have a horizontal scroll. | In order to fix this, I needed to remove the padding that was present as this, combined with width:100%, was causing errors as the header would take up a bit more room than what it should. I also added a margin:0 auto; to then center the logo in the middle of the page. |
 
