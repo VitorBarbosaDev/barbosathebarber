@@ -139,7 +139,7 @@ Full testing was performed on the following devices:
 * Laptop:
   * Macbook Pro 2022 14 inch screen
 * Mobile Devices:
-  * Pocophone f3.
+  * Pocophone F3.
   * Samsung Galaxy S20 Ultra .
 
 Each device tested the site using the following browsers:
