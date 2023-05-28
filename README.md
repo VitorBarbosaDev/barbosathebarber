@@ -259,7 +259,7 @@ To clone the Barbosathebarber repository, follow these steps:
 
 ## Testing
 
-You can view the testing that was done in the testing.md file that I created [here](TESTING.md))
+You can view the testing that was done in the testing.md file that I created [here](TESTING.md)
 
 
 ## Credits
