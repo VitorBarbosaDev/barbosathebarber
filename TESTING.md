@@ -111,21 +111,22 @@ Considering these factors, I have decided to maintain the current appearance of 
 
 ### Testing User Stories
 
+
 | Goals | How are they achieved? | Image |
 | :--- | :--- | :--- |
 | `First Time Visitors` |
 |  |  |  |
-| I want to find out who Barbosa the Barber is. | A about page is linked in the header there is a section about Guilherme. | :--- |
-| I want to be able to navigate the site easily to find information. | The Nav links at the top of the page allows the user to go to the section they want | :--- |
-| I want to be able to find their social media profiles so I can see what their must recent cuts look like. | Social Media Links At the bottom of the site. | :--- |
+| I want to find out who Barbosa the Barber is. | An "About" page is linked in the header. There is a section about Guilherme. | :--- |
+| I want to be able to navigate the site easily to find information. | The navigation links at the top of the page allow the user to go to the section they want. | :--- |
+| I want to be able to find their social media profiles so I can see what their most recent cuts look like. | Social media links are at the bottom of the site. | :--- |
 |`Returning Visitors`|
 |  |  |  |
-| I want to see if any new photos have been added to the gallery. | They can click on the gallery link and few all the photos there | :--- |
-| I want to book another haircut. | They can click on the contact page and there on that page there is a link to the insta where they can direct message or a submittion form | :--- |
-| I want to find social media links. | Social Media Links in the footer in each page | :--- |
+| I want to see if any new photos have been added to the gallery. | They can click on the gallery link and view all the photos there. | :--- |
+| I want to book another haircut. | They can click on the contact page. On that page, there is a link to Instagram where they can direct message, or a submission form that is locationed at the bottom of the contact page. | :--- |
+| I want to find social media links. | Social media links are in the footer on each page. | :--- |
 |`Frequent Visitor Goals` |
 |  |  |  |
-| I want to see what time the barber opens and the location. | There is a timesheet in the contact page so they can see the time there along with a map to the location of the barber. |  |
+| I want to see what time the barber opens and the location. | There is a timesheet on the contact page so they can see the time there, along with a map to the location of the barber. |  |
 
 
 ### Full Testing
@@ -138,7 +139,7 @@ Full testing can be tedious, so it is great to try and break this part up into s
 
 ### Known Bugs
 
-List (or put in a table) all known bugs on your site here as soon as you find them. This will prevent you from forgetting any at the end. Some (if not all) of these bugs will hopefully make their way over to the next section, solved bugs, as you progress through your project.
+There are no bugs that I know of.
 
 ### Solved Bugs
 
