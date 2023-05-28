@@ -111,9 +111,22 @@ Considering these factors, I have decided to maintain the current appearance of 
 
 ### Testing User Stories
 
-👩🏻‍💻 View an example of a completed user stories testing section [here](https://github.com/kera-cudmore/BookWorm/blob/main/TESTING.md#Testing-User-Stories)
+| Goals | How are they achieved? | Image |
+| :--- | :--- | :--- |
+| `First Time Visitors` |
+|  |  |  |
+| I want to find out who Barbosa the Barber is. | A about page is linked in the header there is a section about Guilherme. | :--- |
+| I want to be able to navigate the site easily to find information. | The Nav links at the top of the page allows the user to go to the section they want | :--- |
+| I want to be able to find their social media profiles so I can see what their must recent cuts look like. | Social Media Links At the bottom of the site. | :--- |
+|`Returning Visitors`|
+|  |  |  |
+| I want to see if any new photos have been added to the gallery. | They can click on the gallery link and few all the photos there | :--- |
+| I want to book another haircut. | They can click on the contact page and there on that page there is a link to the insta where they can direct message or a submittion form | :--- |
+| I want to find social media links. | Social Media Links in the footer in each page | :--- |
+|`Frequent Visitor Goals` |
+|  |  |  |
+| I want to see what time the barber opens and the location. | There is a timesheet in the contact page so they can see the time there along with a map to the location of the barber. |  |
 
-This is where you will test the user stories you created in the README against your site. I like to use a table for this section - I create a column for the user stories goals, how these have been achieved and I use the third column to add any supporting images.
 
 ### Full Testing
 
