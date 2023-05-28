@@ -116,17 +116,17 @@ Considering these factors, I have decided to maintain the current appearance of 
 | :--- | :--- | :--- |
 | `First Time Visitors` |
 |  |  |  |
-| I want to find out who Barbosa the Barber is. | An "About" page is linked in the header. There is a section about Guilherme. | :--- |
-| I want to be able to navigate the site easily to find information. | The navigation links at the top of the page allow the user to go to the section they want. | :--- |
-| I want to be able to find their social media profiles so I can see what their most recent cuts look like. | Social media links are at the bottom of the site. | :--- |
+| I want to find out who Barbosa the Barber is. | An "About" page is linked in the header. There is a section about Guilherme. | [About Section](assets/images/testingimages/testing-manual-testing-about-section.png) |
+| I want to be able to navigate the site easily to find information. | The navigation links at the top of the page allow the user to go to the section they want. | [Nav Bar](assets/images/testingimages/testing-manual-testing-navbar.png) |
+| I want to be able to find their social media profiles so I can see what their most recent cuts look like. | Social media links are at the bottom of the site. | [Footer](assets/images/testingimages/testing-manual-testing-footer.png) |
 |`Returning Visitors`|
 |  |  |  |
-| I want to see if any new photos have been added to the gallery. | They can click on the gallery link and view any new photos there. | :--- |
-| I want to book another haircut. | They can click on the contact page. On that page, there is a link to Instagram where they can direct message, or a submission form that is locationed at the bottom of the contact page. | :--- |
-| I want to find social media links. | Social media links are in the footer on each page. | :--- |
+| I want to see if any new photos have been added to the gallery. | They can click on the gallery link and view any new photos there. | [Gallery Page](assets/images/testingimages/testing-manual-testing-gallery.png) |
+| I want to book another haircut. | They can click on the contact page. On that page, there is a link to Instagram where they can direct message, or a submission form that is locationed at the bottom of the contact page. | [Contact Page](assets/images/testingimages/testing-manual-testing-contact.png) |
+| I want to find social media links. | Social media links are in the footer on each page. | [Footer](assets/images/testingimages/testing-manual-testing-footer.png) |
 |`Frequent Visitor Goals` |
 |  |  |  |
-| I want to see what time the barber opens and the location. | There is a timesheet on the contact page so they can see the time there, along with a map to the location of the barber. |  |
+| I want to see what time the barber opens and the location. | There is a timesheet on the contact page so they can see the time there, along with a map to the location of the barber. | [Contact Page](assets/images/testingimages/testing-manual-testing-contact.png)  |
 
 
 ### Full Testing
