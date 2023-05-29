@@ -2,7 +2,7 @@
 
 ![Multi_Display_Example](assets/images/readmeimages/readme_mutipledisplaysphoto.png)
 
-The site was build to be used a singular place where my brother guilherme who is a barber could promote his business and have all the information in one place in order to hopefully be able to aquire new customers 
+The site was built to serve as a singular place where my brother, Guilherme, who is a barber, could promote his business. By consolidating all the information in one place, we hope to attract new customers.
 
 
 Live Site : https://vitorbarbosadev.github.io/barbosathebarber/
@@ -50,7 +50,7 @@ Live Site : https://vitorbarbosadev.github.io/barbosathebarber/
 
 ![image](https://github.com/VitorBarbosaDev/barbosathebarber/assets/46977318/e19c390f-29f0-405d-85c1-f21e710526ca)
 
-Barbosa the Barber has steady been growing on all his social media platforms and with a growing cliental comes less time to answer questions.
+Barbosa the Barber has been steadily growing on all his social media platforms, and with an increasing clientele comes less time to answer questions.
 
 Hence why this site exists in order to help aid and reduce the amount of questions he gets asked on a daily basis.
 
@@ -98,7 +98,7 @@ I created the pallet above to represent the colors used on the website [coolors]
 
 * Roboto Slab is used for the body text on the site.
 
-* serif was used as a backup incase the other two failed to load.
+* Serif was used as a backup incase the other two failed to load.
 
 The reason I choose to use these fonts was because of the fact that they are easy to read and match other very well I also thought that they had a perfessonal vibe to that that suited Guilhermes young but business man personality.
 
@@ -140,25 +140,24 @@ Additionally, every page includes a footer with two centrally placed social medi
 
 
 ### Home Page.
-
-* Hero Image Section. This section includes a hero image that covers the page and it also has a box in the right corner that has a phrase on it 
-* Why cut with me Section. This section has a h2 that is centered it is then split in two one side has an image of Guilherme standing and the right side has statement and a button to book underneath.
-* Review Section. This section includes a mutiple images each of them is a different review.
-* Tiktok section. This section shows Guilhermes Tiktok feed.
+* Hero Image Section: This section includes a hero image that covers the page. It also has a box in the right corner that contains a phrase.
+* Why Cut with Me Section: This section has a centered H2 heading. It is then split into two; one side has an image of Guilherme standing, and the right side has a statement with a button to book underneath.
+* Review Section: This section includes multiple images, each of them representing a different review.
+* Tiktok Section: This section displays Guilherme's Tiktok feed.
 
 #### About Page. 
-* About me section. This section is split into two one left side has an image of Guilherme and then right side has a statement and title.
+* About me section.  This section is split into two. The left side features an image of Guilherme, while the right side contains a title and a statement.
 
 #### Services Page. 
-* Services We Offer section. This section is a table that shows all the updated prices for each service that Rio provide.
+P Services We Offer section. This section contains a table that displays all the updated prices for each service that Guilherme offers as a barber.
 
 #### Gallery Page.
 * Pictures Section. This section is a collection of images which showcase different cuts.
 
 #### Contact Page.
-* Contact On Insta Section. This section contains a title and paragrah and it is location on the left side of the page it is paragraph that at the end of it has a instagram button that will bring the user to Guilhermes Instagram page
-* Barber Info Section. Next we have the location and time for the barber shown these two features share a section the location is shown using google maps and the times is in a table.
-* Book Your Cut Section. Underneath everthing there is a form that allows the user to input their name and the type of hair cut they want and also the day they want to cut and once they submit they are redirected to the success page
+* Contact On Insta Section: This section, located on the left side of the page, contains a title and a paragraph. At the end of the paragraph, there's an Instagram button that will redirect the user to Guilherme's Instagram page.
+* Barber Info Section: Next, we have a section that displays the location and operating hours of the barber. The location is shown using Google Maps, and the hours are presented in a table.
+* Book Your Cut Section: Underneath everything, there's a form that allows the user to input their name, the type of haircut they want, and the day they want to get the haircut. Once they submit the form, they are redirected to the success page.
 
 #### Success Page.
 * This page is simiply a thank you message and then a button to go home 
