@@ -100,7 +100,7 @@ I created the pallet above to represent the colors used on the website [coolors]
 
 * Serif was used as a backup incase the other two failed to load.
 
-The reason I choose to use these fonts was because of the fact that they are easy to read and match other very well I also thought that they had a perfessonal vibe to that that suited Guilhermes young but business man personality.
+The reason I chose to use these fonts was because they are easy to read and complement each other very well. I also thought that they conveyed a professional vibe that suited Guilherme's youthful yet business-oriented personality.
 
 
 EB Garamond (weight 500)
