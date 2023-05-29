@@ -3,7 +3,7 @@
  
 ![Multi_Display_Example](assets/images/readmeimages/readme_mutipledisplaysphoto.png)
 
-The site was build to be used a singular place where my brother guilherme who is a barber could promote his business and have all the information in one place in order to hopefully be able to aquire new customers 
+The site was built to serve as a singular place where my brother, Guilherme, who is a barber, could promote his business. By consolidating all the information in one place, we hope to attract new customers.
 
 
 Live Site : https://vitorbarbosadev.github.io/barbosathebarber/
